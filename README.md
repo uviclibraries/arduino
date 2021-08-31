@@ -1,4 +1,4 @@
-# WORKSHOP Name goes here...
+# Electronics with Arduino
 ### UVic Libraries Digital Scholarship Commmons
 
 Link to workshop: https://richmccue.github.io/arduino/
