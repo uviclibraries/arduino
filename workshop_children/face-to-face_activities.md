@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 1-Activities Introduction
-nav_order: 2
+title: Face-to-Face Arduino Kit Activities
+nav_order: 3
 parent: Workshop Activities
 ---
 # Hands
