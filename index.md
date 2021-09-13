@@ -15,7 +15,7 @@ nav_order: 1
 
 The [Arduino](https://www.arduino.cc/){:target="_blank"} world is an accessible introduction to microcontrollers for anyone from casual hobbyists to professionals. Arduino offers affordable open-source hardware and software that enables users to design their own interactive technology.
 
-Arduino is not the only way to work with microcontrollers. According to Arduino's introduction page, "There are many other microcontrollers and microcontroller platforms available for physical computing. Parallax Basic Stamp, Netmedia's BX-24, Phidgets, MIT's Handyboard, and many others offer similar functionality. All of these tools take the messy details of microcontroller programming and wrap it up in an easy-to-use package." (https://www.arduino.cc/en/guide/introduction)(https://www.arduino.cc/en/guide/introduction){:target="_blank"}
+Arduino is not the only way to work with microcontrollers. According to Arduino's introduction page, "There are many other microcontrollers and microcontroller platforms available for physical computing. Parallax Basic Stamp, Netmedia's BX-24, Phidgets, MIT's Handyboard, and many others offer similar functionality. All of these tools take the messy details of microcontroller programming and wrap it up in an easy-to-use package." [(https://www.arduino.cc/en/guide/introduction)](https://www.arduino.cc/en/guide/introduction){:target="_blank"}
 
 ## Learning objectives - UPDATE FOR THE NEW TOOL
 
