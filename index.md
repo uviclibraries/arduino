@@ -13,17 +13,9 @@ nav_order: 1
 
 ## Why Program with Arduino? 
 
-[Arduino](https://TOOL-URL-HERE.org/){:target="_blank"} Sample from Arduino Website
+The [Arduino](https://www.arduino.cc/){:target="_blank"} world is an accessible introduction to microcontrollers for anyone from casual hobbyists to professionals. Arduino offers affordable open-source hardware and software that enables users to design their own interactive technology.
 
-text in paragraph
-
-This workshop uses the OpenSource _Taguette_ software because it is free to use and many find it easier to learn than [other popular commercial software packages](https://en.wikipedia.org/wiki/Computer-assisted_qualitative_data_analysis_software){:target="_blank"}. 
-
-This workshop is not an endorsement of Taguette; there are many options for qualitative analysis and coding and other software may be better in other contexts. While an excellent teaching tool, _Taguette_ imposes some limitations that users should be aware of:
-
-- Only text can be coded. For example videos and images can not be coded.
-- Passanges coded with different tags have the same colour in Taguette. 
-- Only basic analysis can be done in Taguette. External tools, like Microsoft Excel, can be used for more advanced analysis are covered in this workshop.
+Arduino is not the only way to work with microcontrollers. According to Arduino's introduction page, "There are many other microcontrollers and microcontroller platforms available for physical computing. Parallax Basic Stamp, Netmedia's BX-24, Phidgets, MIT's Handyboard, and many others offer similar functionality. All of these tools take the messy details of microcontroller programming and wrap it up in an easy-to-use package." (https://www.arduino.cc/en/guide/introduction)
 
 ## Learning objectives - UPDATE FOR THE NEW TOOL
 
