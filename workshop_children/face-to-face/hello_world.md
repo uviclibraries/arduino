@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1-Activities Introduction
+title: Hello World
 nav_order: 1
 parent: Face-to-Face Arduino Kit Activities
 ---
