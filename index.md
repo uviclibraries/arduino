@@ -7,15 +7,15 @@ nav_order: 1
 
 # Programmable Electronics with Arduino
 
-- Pre-workshop activities: 00 min 
-- Introductory presentation: 00 min
+- Pre-workshop activities: ?? min 
+- Introductory presentation: ?? min
 - Hands-on activities: 120 min
 
 ## Why Program with Arduino? 
 
 [Arduino](https://TOOL-URL-HERE.org/){:target="_blank"} Sample from Arduino Website
 
-[Taguette](https://taguette.org/) a user-friendly and free web-based tool that helps researchers to code and analyse their qualitative data. Taguette is a great tool for those who need to analyze interviews, reports, transcripts of any kinds, and a variety of text. With the tool, we can create codes and analyse texts easily and export in different file formats. If you have some or a lot of text to analyse, Taguette might be a great option for you.
+text in paragraph
 
 This workshop uses the OpenSource _Taguette_ software because it is free to use and many find it easier to learn than [other popular commercial software packages](https://en.wikipedia.org/wiki/Computer-assisted_qualitative_data_analysis_software){:target="_blank"}. 
 
@@ -29,10 +29,12 @@ This workshop is not an endorsement of Taguette; there are many options for qual
 
 At the end of this workshop, you will be able to:
 
-1. Identify the differences between manual coding and coding with qualitative coding software
-2. Use Taguette on either their personal computer or on a cloud-based server
-3. Will have coded at least two texts of their choosing (interviews, speeches, lectures, announcements, etc.) using techniques covered in the workshop
-4. Will have research materials with codes and have exported them
-5. Created a basic analysis of coded data in Excel
+1. Be able to discuss a range of problems Arduino can help solve including digital humanities problems (Arduino possibilities and limitations).
+2. Know basic electronic principles including sensors and switches.
+3. Cut and paste programming, with minor modifications to existing code.
+4. Be able to wire up projects using a solderless breadboard.
+5. Build the "Hello World" project for Arduino: Blink project.
+6. Be able to form a simple circuit of their choice with a switch and output.
+7. Know where to find other projects and tutorials for learning how to program Arduino.
  
 [NEXT STEP: Pre-Workshop Activities](pre-workshop.html){: .btn .btn-blue }
