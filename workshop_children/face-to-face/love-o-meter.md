@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 1-Activities Introduction
+title: Love-o-Meter
 nav_order: 2
 parent: Face-to-Face Arduino Kit Activities
 ---
