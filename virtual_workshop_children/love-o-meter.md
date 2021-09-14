@@ -33,7 +33,8 @@ If desired, you can check out a [simulated version](https://goo.gl/azNRuk){:targ
 2. TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
 ///////////////////////////////////////////////////////
-`const int sensorPin = A0;
+```C
+const int sensorPin = A0;
 // room temperature in Celsius
 const float baselineTemp = 20.0;
 
@@ -95,7 +96,8 @@ void loop(){
     digitalWrite(4, HIGH);
   }
   delay(100);
-}`
+}
+```
 ///////////////////////////////////////////////////////
 
 //insert photo here
