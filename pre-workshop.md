@@ -7,3 +7,6 @@ has_toc: true
 ---
 ## Pre-Workshop Videos & Activities
 This workshop is primarily hands-on work with hardware and software. To participate fully please do the following sections **before the workshop**:
+
+
+TODO: ADD HANDOUT RESIZING VIDEO TO THE PRE-WORKSHOP
