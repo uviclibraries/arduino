@@ -6,4 +6,6 @@ parent: Pre-Workshop Activities
 ---
 # Hands
 
-[NEXT STEP: Workshop Activities](../workshop_activities_virtual.html){: .btn .btn-blue }
+[VIRTUAL WORKSHOP ACTIVITIES](../workshop_activities_virtual.html){: .btn .btn-blue }
+
+[FACE-TO-FACE WORKSHOP ACTIVITIES](../workshop_activities_face-to-face.html){: .btn .btn-blue }
