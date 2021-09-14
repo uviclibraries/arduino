@@ -6,3 +6,5 @@ parent: Face-to-Face Workshop Activities
 ---
 
 # Love-o-Meter
+
+[NEXT PROJECT: Temperature Controlled Servo](temp_ctrl_servo.html){: .btn .btn-blue }
