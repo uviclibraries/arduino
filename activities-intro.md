@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 1-Activities Introduction
-nav_order: 2
+nav_order: 1
 parent: Workshop Activities
 ---
 # REMOVE THIS PAGE ONCE STRUCTURE IS GUARANTEED
