@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Virtual Arduino Workshop Activities
-nav_order: 4
+title: Virtual Workshop Activities
+nav_order: 7
 has_children: true
 has_toc: true
 ---
-# Virtual Arduino Workshop Activities
+# Virtual Workshop Activities
