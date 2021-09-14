@@ -6,3 +6,5 @@ parent: Face-to-Face Workshop Activities
 ---
 
 # Lucky 8-Ball
+
+[NEXT PROJECT: Electronic Die](electronic_die.html){: .btn .btn-blue }
