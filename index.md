@@ -3,7 +3,7 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-<img src="arduino-icon.png" alt="arduino icon" style="float:right;width:180px;"> 
+<img src="images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;"> 
 
 # Programmable Electronics with Arduino
 
