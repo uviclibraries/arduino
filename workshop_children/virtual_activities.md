@@ -6,4 +6,6 @@ parent: Workshop Activities
 has_children: true
 has_toc: true
 ---
-# Hands
+# Virtual Arduino Activities
+
+It is recommended that participants start with the Hello World project.
