@@ -6,6 +6,6 @@ parent: Pre-Workshop Activities
 ---
 # Pre-Workshop Videos, Readings, & Exercises
 
-
+- For the Virtual Workshop, [create a TinkerCAD account](){:target="_blank"}
 
 [NEXT STEP: Pre-Workshop Preparatory Quiz](pw_quiz.html){: .btn .btn-blue }
