@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Light Theremin
-nav_order: 3
+title: Love-o-Meter
+nav_order: 2
 parent: Virtual Workshop Activities
 ---
 
-# Light Theremin
+# Love-o-Meter
