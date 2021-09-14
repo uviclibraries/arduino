@@ -6,3 +6,5 @@ parent: Face-to-Face Workshop Activities
 ---
 
 # Hello World
+
+[NEXT PROJECT: Love-o-Meter](love-o-meter.html){: .btn .btn-blue }
