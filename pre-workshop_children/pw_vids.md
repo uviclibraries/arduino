@@ -6,7 +6,7 @@ parent: Pre-Workshop Activities
 ---
 # Pre-Workshop Videos, Readings, & Exercises
 
-- For the Virtual Workshop, [create a TinkerCAD account](https://www.tinkercad.com/){:target="_blank"}
+- For the Virtual Workshop, [create a Tinkercad account](https://www.tinkercad.com/){:target="_blank"}
 
 - For the In-Library Workshop, [download the Arduino IDE](https://www.arduino.cc/en/software){:target="_blank"}
 
