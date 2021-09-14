@@ -3,13 +3,13 @@ layout: default
 title: Introduction 
 nav_order: 1
 ---
-<img src="WORKSHOP-LOGO-HERE.png" alt="image description" style="float:right;width:180px;"> 
+<img src="arduino-icon.png" alt="arduino icon" style="float:right;width:180px;"> 
 
 # Programmable Electronics with Arduino
 
-- Pre-workshop activities: ?? min 
-- Introductory presentation: ?? min
-- Hands-on activities: 120 min
+- Pre-workshop activities: 20 min 
+- Introductory presentation: 10 min
+- Hands-on activities: 50 - 100 min
 
 ## Why Program with Arduino? 
 
@@ -19,7 +19,7 @@ Programming with Arduino will mean different things to different people. Some ma
 
 While Arduino may be a good introduction to microcontrollers, it is not the only way to work with them. According to Arduino's introduction page, "There are many other microcontrollers and microcontroller platforms available for physical computing. Parallax Basic Stamp, Netmedia's BX-24, Phidgets, MIT's Handyboard, and many others offer similar functionality. All of these tools take the messy details of microcontroller programming and wrap it up in an easy-to-use package." [(https://www.arduino.cc/en/guide/introduction)](https://www.arduino.cc/en/guide/introduction){:target="_blank"}
 
-## Learning objectives - UPDATE FOR THE NEW TOOL
+## Learning objectives
 
 At the end of this workshop, you will be able to:
 
