@@ -27,7 +27,8 @@ If desired, you can check out a [simulated version](https://goo.gl/Tq5TpD){:targ
 2. TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
 ///////////////////////////////////////////////
-`int sensorValue;
+```C
+int sensorValue;
 // variable to calibrate low value
 int sensorLow = 1023;
 // variable to calibrate high value
@@ -64,7 +65,8 @@ void loop() {
  tone(8, pitch, 20);
  // wait for 10ms
  delay(10);
-}`
+}
+```
 ///////////////////////////////////////////////
 
 //insert photo here
