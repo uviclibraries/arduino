@@ -1,11 +1,1 @@
----
-layout: default
-title: Virtual Arduino Activities
-nav_order: 2
-parent: Workshop Activities
-has_children: true
-has_toc: true
----
-# Virtual Arduino Activities
-
-It is recommended that participants start with the Hello World project.
+asdf
