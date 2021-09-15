@@ -7,7 +7,7 @@ parent: Virtual Workshop Activities
 
 # Lucky 8-Ball
 
-//insert photo here
+<img src="images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
