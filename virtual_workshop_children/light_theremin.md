@@ -26,7 +26,6 @@ If desired, you can check out a [simulated version](https://goo.gl/Tq5TpD){:targ
 
 2. TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
-///////////////////////////////////////////////
 ```
 int sensorValue;
 // variable to calibrate low value
@@ -67,7 +66,6 @@ void loop() {
  delay(10);
 }
 ```
-///////////////////////////////////////////////
 
 //insert photo here
 
