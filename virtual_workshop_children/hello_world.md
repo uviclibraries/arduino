@@ -11,7 +11,6 @@ parent: Virtual Workshop Activities
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
-<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
 
 1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
@@ -23,15 +22,16 @@ Materials needed (all of the materials are located in the Basic Components secti
   - 1 LED light.
   - 1 220-ohm (or 220 Ω) Resistor with the following striping from left to right: red, red, brown, gold.
 
-
+<img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:180px;">
 
 Connect as shown in this diagram:
 
-//insert photo here
+<img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="float:right;width:180px;">
 
 2. Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
-//insert photo here
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
 
 3. For fun, let’s make the LED light blink faster.  In the top right section click “**Code**”, scroll to the bottom of the code and change the two lines that say, “**delay(1000)**” to “**delay(250)**”.  Press “**Start Simulation**” and see the difference.   Feel free to play around with the code to see what changes. Have fun!
 
