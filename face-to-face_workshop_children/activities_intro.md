@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Hello World
+title: Activities Introduction
 nav_order: 1
 parent: Face-to-Face Workshop Activities
 ---
