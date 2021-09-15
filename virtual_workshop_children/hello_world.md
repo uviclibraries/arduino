@@ -17,8 +17,8 @@ If you and your group have any questions or get stuck as you work through this i
 Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
 Materials needed (all of the materials are located in the Basic Components section on the right side, except for wires. You can also search for items):
-<img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:30px;">
-<img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:30px;">
+<img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:180px;">
 - Arduino Uno R3
 - Breadboard Small
 - 1 LED light.
