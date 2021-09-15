@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lucky 8-Ball
-nav_order: 5
+nav_order: 6
 parent: Virtual Workshop Activities
 ---
 
