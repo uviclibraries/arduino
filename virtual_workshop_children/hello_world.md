@@ -10,8 +10,8 @@ parent: Virtual Workshop Activities
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-<img src="..\images\virtual_workshops\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
-<img src="..\images\virtual_workshops\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
 
 1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
