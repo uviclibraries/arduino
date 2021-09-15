@@ -4,10 +4,9 @@ title: Temperature Controlled Servo
 nav_order: 4
 parent: Face-to-Face Workshop Activities
 ---
+<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Temperature Controlled Servo
-
-//insert photo here
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 

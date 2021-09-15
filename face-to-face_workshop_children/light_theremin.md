@@ -4,10 +4,9 @@ title: Light Theremin
 nav_order: 7
 parent: Face-to-Face Workshop Activities
 ---
+<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Light Theremin
-
-//insert photo here
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
