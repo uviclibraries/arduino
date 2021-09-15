@@ -31,11 +31,11 @@ Connect as shown in this diagram:
 2. Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
 <img src="..\images\virtual_workshops\hello_world\simulation.png" alt="simulation" style="float:right;width:180px;"> <br>
-<img src="..\images\virtual_workshops\hello_world\animated_breadboard.gif" alt="animated breadboard" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\animated_breadboard.gif" alt="animated breadboard" style="float:left;width:180px;">
 
 3. For fun, let’s make the LED light blink faster.  In the top right section click “**Code**”, scroll to the bottom of the code and change the two lines that say, “**delay(1000)**” to “**delay(250)**”.  Press “**Start Simulation**” and see the difference.   Feel free to play around with the code to see what changes. Have fun!
 
 <img src="..\images\virtual_workshops\hello_world\code.png" alt="code" style="float:right;width:180px;"> <br>
-<img src="..\images\virtual_workshops\hello_world\animated_code.gif" alt="animated code" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\animated_code.gif" alt="animated code" style="float:left;width:180px;">
 
 [NEXT PROJECT: Love-o-Meter](love-o-meter.html){: .btn .btn-blue }
