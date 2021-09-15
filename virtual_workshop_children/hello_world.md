@@ -10,9 +10,10 @@ parent: Virtual Workshop Activities
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
+<img src="images\virtual_workshops\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
+<img src="images\virtual_workshops\tinkercad_account.png" alt="tinkercad account" style="float:right;width:180px;">
 
-//insert photo here
+1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
 Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
@@ -22,7 +23,7 @@ Materials needed (all of the materials are located in the Basic Components secti
           - 1 LED light.
           - 1 220-ohm (or 220 Ω) Resistor with the following striping from left to right: red, red, brown, gold.
 
-//insert photo here
+
 
 Connect as shown in this diagram:
 
