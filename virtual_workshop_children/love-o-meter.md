@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Love-o-Meter
-nav_order: 2
+nav_order: 3
 parent: Virtual Workshop Activities
 ---
 
