@@ -23,8 +23,8 @@ Materials needed (all of the materials are located in the Basic Components secti
 - 2 220-ohm (or 220 &Omega;) Resistor with the following striping from left to right: red, red, brown, gold
 - 1 Ultrasonic Distance Sensor (HC-SRO4)
 
-<img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:60px;">
-<img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="width:60px;">
+<img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="width:180px;">
 
 Connect as shown in this diagram:
 
