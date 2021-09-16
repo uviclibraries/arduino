@@ -12,22 +12,26 @@ If you and your group have any questions or get stuck as you work through this i
 
 1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
-//insert photo here
+<img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="width:30px;">
 
 Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
 Materials needed (all of the materials are located in the Basic Components section on the right side, except for wires. You can also search for items):
-          - Arduino Uno R3
-          - Breadbord Small
-          - 2 LED Lights
-          - 2 220-ohm (or 220 &Omega;) Resistor with the following striping from left to right: red, red, brown, gold
-          - 1 Ultrasonic Distance Sensor (HC-SRO4)
+- Arduino Uno R3
+- Breadbord Small
+- 2 LED Lights
+- 2 220-ohm (or 220 &Omega;) Resistor with the following striping from left to right: red, red, brown, gold
+- 1 Ultrasonic Distance Sensor (HC-SRO4)
+
+<img src="..\images\virtual_workshops\2M_covid_sensor\code.png" alt="code" style="width:30px;">
 
 Connect as shown in this diagram:
 
-//insert photo here
+<img src="..\images\virtual_workshops\2M_covid_sensor\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
 2. Tinkercad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
+
+<img src="..\images\virtual_workshops\2M_covid_sensor\code.png" alt="code" style="width:30px;">
 
 ```
 int LED_GREEN = 3;
@@ -79,10 +83,10 @@ void loop() {
 
 3. Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
-//insert photo here
+<img src="..\images\virtual_workshops\2M_covid_sensor\simulation.png" alt="simulation" style="width:30px;">
 
 4. Now click on the Ultrasonic sensor, and then move the green button around with your mouse to simulate objects being more or less than 2M away from the sensor. Have fun playing around!
 
-//insert photo here
+<img src="..\images\virtual_workshops\2M_covid_sensor\breadboard_in_action.png" alt="breadboard demonstration" style="width:30px;">
 
 [NEXT PROJECT: Lucky 8-Ball](lucky_8-ball.html){: .btn .btn-blue }
