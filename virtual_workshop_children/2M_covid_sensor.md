@@ -10,7 +10,7 @@ parent: Virtual Workshop Activities
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1. If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
+1.{: .label .label-yellow} If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
 <img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="width:30px;">
 
@@ -30,7 +30,7 @@ Connect as shown in this diagram:
 
 <img src="..\images\virtual_workshops\2M_covid_sensor\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
-2. Tinkercad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
+2.{: .label .label-yellow} Tinkercad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
 <img src="..\images\virtual_workshops\2M_covid_sensor\code.png" alt="code" style="width:30px;">
 
@@ -82,11 +82,11 @@ void loop() {
 }
 ```
 
-3. Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
+3.{: .label .label-yellow} Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
 <img src="..\images\virtual_workshops\2M_covid_sensor\simulation.png" alt="simulation" style="width:30px;">
 
-4. Now click on the Ultrasonic sensor, and then move the green button around with your mouse to simulate objects being more or less than 2M away from the sensor. Have fun playing around!
+4.{: .label .label-yellow} Now click on the Ultrasonic sensor, and then move the green button around with your mouse to simulate objects being more or less than 2M away from the sensor. Have fun playing around!
 
 <img src="..\images\virtual_workshops\2M_covid_sensor\breadboard_in_action.png" alt="breadboard demonstration" style="width:30px;">
 
