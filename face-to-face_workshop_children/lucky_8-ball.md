@@ -12,19 +12,20 @@ If you and your group have any questions or get stuck as you work through this i
 
 1. If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
-//insert photo here
-
 Materials needed:
-          - 1 LCD Screen (see below)
-          - 1 Tilt Switch (4 prongs)
-          - 1 10k-ohm Resistor with the following striping in order: brown, black, orange, gold
-          - 1 220-ohm Resistor with the following striping in order: red, red, brown, gold
-          - 1 Potentiometer
-          - 1 Long Red Wire
-          - 1 Long Black Wire
-          - See Below for the remaining wires and their placement
+- 1 LCD Screen (see below)
+- 1 Tilt Switch (4 prongs)
+- 1 10k-ohm Resistor with the following striping in order: brown, black, orange, gold
+- 1 220-ohm Resistor with the following striping in order: red, red, brown, gold
+- 1 Potentiometer
+- 1 Long Red Wire
+- 1 Long Black Wire
+- See Below for the remaining wires and their placement
 
-//insert photo here
+<img src="..\images\in-person_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="width:30px;">
+<img src="..\images\in-person_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="width:30px;">
+<img src="..\images\in-person_workshops\lucky_8-ball\tilt_switch.png" alt="tilt switch" style="width:30px;">
+<img src="..\images\in-person_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="width:30px;">
 
 2. Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard.
 
@@ -32,7 +33,7 @@ Materials needed:
 
 4. Connect all the other wires as can be seen in the diagram below.
 
-//insert photo here
+<img src="..\images\in-person_workshops\lucky_8-ball\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
 Note: you can check out a [simulated version](https://goo.gl/9Lo9wQ){:target="_blank"} of this Arduino project
 
@@ -44,7 +45,7 @@ Note: you can check out a [simulated version](https://goo.gl/9Lo9wQ){:target="_b
 
 8. Upload the “Crystal Ball” code to your Arduino by pressing the “Upload” button.
 
-//insert photo here
+<img src="..\images\in-person_workshops\lucky_8-ball\upload.png" alt="upload" style="width:30px;">
 
 9. Twist the potentiometer until you see words appear on the screen. Once the code is uploaded and running, you trigger your Lucky 8-Ball by moving its base gently up and down to trigger the tilt sensor. The tilt sensor and the potentiometer can sometimes pop out, so you might have to keep a finger on the sensor as you shake it!
 
