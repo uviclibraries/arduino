@@ -21,6 +21,7 @@ Materials needed (all of the materials are located in the Basic Components secti
 - Breadboard Small
 - 1 LED light.
 - 1 220-ohm (or 220 Ω) Resistor with the following striping from left to right: red, red, brown, gold.
+
 <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:60px;">
 <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:180px;">
 
