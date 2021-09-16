@@ -24,7 +24,7 @@ Materials needed:
 
 <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
 <img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="width:30px;">
-<img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
+<img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:30px;">
 
 Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
