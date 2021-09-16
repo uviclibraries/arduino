@@ -12,21 +12,20 @@ If you and your group have any questions or get stuck as you work through this i
 
 1. If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
-//insert photo here
-
 Materials needed:
-          4 LED Lights - 1 Blue, 1 Yellow, 1 Red, 1 Green
-          1 560-ohm Resistor with the following striping in order: green, blue, brown, gold
-          4 Long Orange Wires
-          1 Long Black Wire
-          1 Short Yellow Wire
-          3 Short Purple Wires
+- 4 LED Lights - 1 Blue, 1 Yellow, 1 Red, 1 Green
+- 1 560-ohm Resistor with the following striping in order: green, blue, brown, gold
+- 4 Long Orange Wires
+- 1 Long Black Wire
+- 1 Short Yellow Wire
+- 3 Short Purple Wires
 
-//insert photo here
+<img src="..\images\in-person_workshops\electronic_die\LED.png" alt="led" style="width:30px;">
+<img src="..\images\in-person_workshops\electronic_die\560-ohm_res.png" alt="560 ohm resistor" style="width:30px;">
 
 2. Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard.
 
-//insert photo here
+<img src="..\images\in-person_workshops\electronic_die\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
 Note: you can check out a [simulated version](https://goo.gl/NYzKt4){:target="_blank"} of this Arduino project
 
