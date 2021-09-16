@@ -13,9 +13,11 @@ If you and your group have any questions or get stuck as you work through this i
 1. If you haven’t already, please go to the Arduino website and [download the "Arduino IDE" for either Windows or Mac](https://www.arduino.cc/en/software){:target="_blank"} and then install the software on your computer
 
 Materials needed: 
-          1 Piezo (this is basically a small speaker)
-          1 Photoresistor (this is a light sensor)
-          1 10k-ohm (or 10k&Omega;) Resistor with the following striping from left to right: brown, black, orange, gold
+- 1 Piezo (this is basically a small speaker)
+- 1 Photoresistor (this is a light sensor)
+- 1 10k-ohm (or 10k&Omega;) Resistor with the following striping from left to right: brown, black, orange, gold
+
+
 
 Connect as shown in this diagram (note: the Piezo legs are closer together than displayed here -- just make sure the two adjacent wires in Column A are in the same row as the Piezo legs):
 
