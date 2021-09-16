@@ -13,11 +13,11 @@ If you and your group have any questions or get stuck as you work through this i
 1. If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
 Materials needed:
-          1 LED Light
-          1 220-ohm Resistor with the following striping in order: red, red, brown, gold
-          1 Long Red Wire
-          1 Long Black Wire
-          1 Short Wire
+- 1 LED Light
+- 1 220-ohm Resistor with the following striping in order: red, red, brown, gold
+- 1 Long Red Wire
+- 1 Long Black Wire
+- 1 Short Wire
 
 <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
 <img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:30px;">
