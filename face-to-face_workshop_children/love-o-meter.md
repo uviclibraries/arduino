@@ -12,23 +12,23 @@ If you and your group have any questions or get stuck as you work through this i
 
 1. If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
-//insert photo here
-
 Materials needed:
-          - 3 LED Lights
-          - 1 Temperature Sensor
-          - 3 220-ohm Resistors with the following striping in order: red, red, brown, gold
-          - 1 Long Red Wire
-          - 1 Long Black Wire
-          - 1 Long Green Wire
-          - 3 Medium Wires
-          - 2 Short Wires
+- 3 LED Lights
+- 1 Temperature Sensor
+- 3 220-ohm Resistors with the following striping in order: red, red, brown, gold
+- 1 Long Red Wire
+- 1 Long Black Wire
+- 1 Long Green Wire
+- 3 Medium Wires
+- 2 Short Wires
 
-//insert photo here
+<img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
 
 Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
-//insert photo here
+<img src="..\images\in-person_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
 Note: you can check out a [simulated version](https://goo.gl/azNRuk){:target="_blank"} of this Arduino Project
 
@@ -38,11 +38,11 @@ Note: you can check out a [simulated version](https://goo.gl/azNRuk){:target="_b
 
 4. Go to the top menu and select: “**Files**” -> “**Examples**” -> “**10.StarterKit_BasicKit**” -> “**LoveOMeter**”
 
-//insert photo here
+<img src="..\images\in-person_workshops\love-o-meter\menus.png" alt="menu navigation" style="width:30px;">
 
 5. Upload the “**LoveOMeter**” code to your Arduino by pressing the “**Upload**” button.
 
-//insert photo here
+<img src="..\images\in-person_workshops\love-o-meter\upload.png" alt="upload" style="width:30px;">
 
 6. Hold on to the heat sensor and the lights should start lighting up after 30 seconds.  If it takes more than 30 seconds to respond, you might want to try changing the following line of code from 20.0 to 17.0 and then upload it again. Vary this number until it works the way you want it to!
 
