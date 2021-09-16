@@ -25,10 +25,11 @@ Materials needed:
           3 Short Purple Wires
 
 <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:30px;">
+<img src="..\images\in-person_workshops\temp_ctrl_servo\servo.png" alt="servo" style="width:30px;">
 
 2. Connect the circuit as shown in the diagram below:
 
-//insert photo here
+<img src="..\images\in-person_workshops\temp_ctrl_servo\breadboard_schematic.png" alt="breadboard" style="width:30px;">
 
 Using the USB cable, plug your Arduino into your computer.
 
@@ -38,13 +39,13 @@ Using the USB cable, plug your Arduino into your computer.
 
 4. To create a new script on the Arduino IDE, select “**File**” -> “**New**” and save it with the name and location of your choice.
 
-//insert photo here
+<img src="..\images\in-person_workshops\temp_ctrl_servo\menus.png" alt="menu navigation" style="width:30px;">
 
 5. After creating a new script, replace the content in the window with the code you have copied from the link in step 4.
 
 6. When ready, click the “Upload” button (the right arrow in the top left corner).
 
-//insert photo here
+<img src="..\images\in-person_workshops\temp_ctrl_servo\upload.png" alt="upload" style="width:30px;">
 
 7. Hold the TMP sensor and watch the servo spin with the warmth of your touch!
 
