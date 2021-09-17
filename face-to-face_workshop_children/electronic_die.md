@@ -12,8 +12,8 @@ If you and your group have any questions or get stuck as you work through this i
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
     Materials needed:
-    <img src="..\images\in-person_workshops\electronic_die\LED.png" alt="led" style="width:120px;">
-    <img src="..\images\in-person_workshops\electronic_die\560-ohm_res.png" alt="560 ohm resistor" style="width:120px;">
+    <img src="..\images\in-person_workshops\electronic_die\LED.png" alt="led" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\electronic_die\560-ohm_res.png" alt="560 ohm resistor" style="float:right;width:120px;">
     - 4 LED Lights - 1 Blue, 1 Yellow, 1 Red, 1 Green
     - 1 560-ohm Resistor with the following striping in order: green, blue, brown, gold
     - 4 Long Orange Wires
