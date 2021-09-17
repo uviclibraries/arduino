@@ -33,11 +33,11 @@ If you and your group have any questions or get stuck as you work through this i
 
 4.  Launch the arduino software.
 
-5.  Go to the top menu: “**File**” -> “**Examples**” -> “**10.StarterKit_BasicKit**” -> “**p06_LightTheremin**”
+5.  Go to the top menu: **File** **->** **Examples** **->** **10.StarterKit_BasicKit** **->** **p06_LightTheremin**
 
     <img src="..\images\in-person_workshops\light_theremin\menus.png" alt="menu navigation" style="width:480px;">
 
-6.  Upload the “**Light Theremin**” code to your Arduino by pressing the “**Upload**” button.
+6.  Upload the **Light Theremin** code to your Arduino by pressing the **Upload** button.
 
     <img src="..\images\in-person_workshops\light_theremin\upload.png" alt="upload" style="width:480px;">
 
