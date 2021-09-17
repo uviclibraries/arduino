@@ -15,8 +15,8 @@ If you and your group have any questions or get stuck as you work through this i
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed (searching for these components can be helpful):
-    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="float:right;width:30px;">
-    <img src="..\images\virtual_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="float:right;width:45px;">
+    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="float:right;width:45px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="float:right;width:60px;">
     <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="float:right;width:90px;">
     <img src="..\images\virtual_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="float:right;width:90px;">
     <img src="..\images\virtual_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="float:right;width:90px;">
