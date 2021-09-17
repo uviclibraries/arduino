@@ -79,7 +79,7 @@ If you and your group have any questions or get stuck as you work through this i
     }
     ```
 
-3.  Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
+3.  Once everything is connected, click **Start Simulation** in the top right corner. You should see the light starting to blink
 
     <img src="..\images\virtual_workshops\2M_covid_sensor\simulation.png" alt="simulation" style="width:480px;">
 
