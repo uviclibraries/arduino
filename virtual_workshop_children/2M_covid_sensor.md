@@ -4,27 +4,25 @@ title: 2M COVID Sensor
 nav_order: 5
 parent: Virtual Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="width:270px;">
 
 # 2M COVID Sensor
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
-
-<img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="width:270px;">
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed (all of the materials are located in the Basic Components section on the right side, except for wires. You can also search for items):
+    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="float:right;width:90px;">
     - Arduino Uno R3
     - Breadbord Small
     - 2 LED Lights
     - 2 220-ohm (or 220 &Omega;) Resistor with the following striping from left to right: red, red, brown, gold
     - 1 Ultrasonic Distance Sensor (HC-SRO4)
-    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="width:30px;">
-    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="width:90px;">
-
+    
     Connect as shown in this diagram:
 
     <img src="..\images\virtual_workshops\2M_covid_sensor\breadboard_schematic.png" alt="breadboard" style="width:480px;">
