@@ -43,12 +43,14 @@ If you and your group have any questions or get stuck as you work through this i
 
 10.  Launch the arduino software.
 
-11.  Go to the top menu and select: **Files** **->** **New**
+11.  Go to the top menu and select: **File -> New**
 
 12.  Delete any content in script window and paste the code from the following document:
 
      [https://goo.gl/ZcRBf4](https://goo.gl/ZcRBf4){:target="_blank"}
 
-13.  **TODO: RESOLVE THIS WORKSHOP WITH A CUTE LINE**
+13.  Upload this code to your Arduino by pressing the **Upload** button.
+
+     <img src="..\images\in-person_workshops\light_theremin\upload.png" alt="upload" style="width:480px;">
 
 [NEXT PROJECT: Light Theremin](light_theremin.html){: .btn .btn-blue }
