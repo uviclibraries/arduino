@@ -30,17 +30,17 @@ If you and your group have any questions or get stuck as you work through this i
 
 3.  Launch the Arduino software.
 
-4.  Go to the top menu and select: “**Files**” -> “**Examples**” -> “**01.Basics**” -> “**Blink**”
+4.  Go to the top menu and select: **Files -> Examples -> 01.Basics -> Blink**
 
     <img src="..\images\in-person_workshops\hello_world\menus.png" alt="menu navigation" style="width:480px;">
 
-5.  Upload the “**Blink**” code to your Arduino by pressing the “**Upload**” button.
+5.  Upload the **Blink** code to your Arduino by pressing the **Upload** button.
 
     <img src="..\images\in-person_workshops\hello_world\upload.png" alt="upload button" style="width:480px;">
 
 6.  Your LED light should now be blinking! Congratulations!
 
-7.  For fun, let’s make the LED light blink faster.  In the Arduino IDE, scroll to the bottom of the code and change the two lines that say, “**delay(1000)**” to “**delay(250)**”.  Press upload and see the difference.   Feel free to play around with the code to see what changes. Have fun!
+7.  For fun, let’s make the LED light blink faster.  In the Arduino IDE, scroll to the bottom of the code and change the two lines that say, **delay(1000)** to **delay(250)**.  Press upload and see the difference.   Feel free to play around with the code to see what changes. Have fun!
 
     <img src="..\images\in-person_workshops\hello_world\code_edit.png" alt="code edit" style="width:480px;">
 
