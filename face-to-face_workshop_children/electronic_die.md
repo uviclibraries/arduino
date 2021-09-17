@@ -53,4 +53,6 @@ If you and your group have any questions or get stuck as you work through this i
 
      <img src="..\images\in-person_workshops\light_theremin\upload.png" alt="upload" style="width:480px;">
 
+14.  The LEDs on your board will rapidly flicker, and delays between flashes will increase until they finally stop changing. Congratulations! You've "rolled" a random number from 1 to 4!
+
 [NEXT PROJECT: Light Theremin](light_theremin.html){: .btn .btn-blue }
