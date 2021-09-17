@@ -33,7 +33,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 4.  Launch the arduino software.
 
-5.  Go to the top menu: **File** **->** **Examples** **->** **10.StarterKit_BasicKit** **->** **p06_LightTheremin**
+5.  Go to the top menu: **File -> Examples -> 10.StarterKit_BasicKit -> p06_LightTheremin**
 
     <img src="..\images\in-person_workshops\light_theremin\menus.png" alt="menu navigation" style="width:480px;">
 
@@ -41,6 +41,6 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\in-person_workshops\light_theremin\upload.png" alt="upload" style="width:480px;">
 
-7.  Once the code is uploaded and running, there is a 5 second initialization phase where the ambient light level is recorded. After that, move your finger around the photoresistor to make some crazy Theremin sounds!  Enjoy!
+7.  Once the code is uploaded and running, there is a **5** second initialization phase where the ambient light level is recorded. After that, move your finger around the photoresistor to make some crazy Theremin sounds!  Enjoy!
 
 [NEXT STEP: Earn a Workshop Badge](../informal-credentials.html){: .btn .btn-blue }
