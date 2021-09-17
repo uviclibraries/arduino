@@ -15,9 +15,9 @@ If you and your group have any questions, or get stuck as you work through this 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed (you might find it helpful to drag all the items into the workspace before you start putting them together):
-    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="float:right;width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="float:right;width:45px;">
     <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="float:right;width:90px;">
-    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="float:right;width:45px;">
+    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="float:right;width:60px;">
     - Arduino Uno R3
     - Breadboard Small
     - 3 LED Lights
