@@ -28,7 +28,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\in-person_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: you can check out a [simulated version](https://goo.gl/azNRuk){:target="_blank"} of this Arduino Project
+    Note: you can check out a [simulated version](https://www.tinkercad.com/things/kUFHskXz5BT){:target="_blank"} of this Arduino Project
 
 2.  Using the provided USB cable plug your Arduino into your computer.
 
