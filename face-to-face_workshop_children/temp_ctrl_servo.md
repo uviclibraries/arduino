@@ -14,6 +14,8 @@ If you and your group have any questions or get stuck as you work through this i
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
     Materials needed:
+    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\temp_ctrl_servo\servo.png" alt="servo" style="float:right;width:120px;">
     - 1 Servo
     - 1 Temperature Sensor (TMP)
     - 4 Short Wires of any colour
@@ -22,8 +24,6 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Red Jumper Wire
     - 1 Short Yellow Wire
     - 3 Short Purple Wires
-    <br><img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:120px;">
-    <img src="..\images\in-person_workshops\temp_ctrl_servo\servo.png" alt="servo" style="width:120px;">
 
 2.  Connect the circuit as shown in the diagram below:
 
