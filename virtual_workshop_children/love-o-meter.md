@@ -99,7 +99,7 @@ void loop(){
         digitalWrite(3, HIGH);
         digitalWrite(4, HIGH);
     }
-       delay(100);
+    delay(100);
 }
     ```
 
