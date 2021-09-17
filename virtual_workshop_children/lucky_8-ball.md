@@ -41,53 +41,55 @@ If you and your group have any questions or get stuck as you work through this i
 
 5.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
-    ```
-#include <LiquidCrystal.h> 
-LiquidCrystal lcd(12,11,5,4,3,2);
-const int switchPin = 6; 
-int switchState = 0; 
-int prevSwitchState = 0; 
-int reply;
-void setup(){ 
-	pinMode(switchPin, INPUT);
-lcd.begin(16, 2); 
-	lcd.print("Ask the "); 
-	lcd.setCursor(0, 1); 
-	lcd.print("Crystal Ball!"); 
-}
-void loop(){ 
-	switchState = digitalRead(switchPin);
-if(switchState != prevSwitchState){ 
-		if(switchState == LOW){ 
-			reply = random(8); //pick a number from 0 to 7
- 			lcd.clear(); 
-			lcd.setCursor(0, 0); 
-			lcd.print("The ball says: "); 
-			lcd.setCursor(0,1 );
-  			switch(reply){ 
-				case 0: lcd.print("Yes");
-				break; 
-				case 1: lcd.print("Most likely"); 
-				break; 
-				case 2: lcd.print("Certainly"); 
-				break; 
-				case 3: lcd.print("Outlook good"); 
-				break; 
-				case 4: lcd.print("Unsure"); 
-				break; 
-				case 5: lcd.print("Ask again"); 
-				break; 
-				case 6: lcd.print("Doubtful"); 
-				break;
- 				case 7: lcd.print("No"); 
-				break; 
-			} //end of switch 
-		} //end of nested if() 
-	} //end of outer if()
-  //update the tilt switch status 
-	prevSwitchState = switchState;  
-} //end of loop()
-    ```
+	```
+	#include <LiquidCrystal.h> 
+	LiquidCrystal lcd(12,11,5,4,3,2);
+	const int switchPin = 6; 
+	int switchState = 0; 
+	int prevSwitchState = 0; 
+	int reply;
+	
+	void setup(){ 
+		pinMode(switchPin, INPUT);
+		lcd.begin(16, 2); 
+		lcd.print("Ask the "); 
+		lcd.setCursor(0, 1); 
+		lcd.print("Crystal Ball!"); 
+	}
+
+	void loop(){ 
+		switchState = digitalRead(switchPin);
+		if(switchState != prevSwitchState){ 
+			if(switchState == LOW){ 
+				reply = random(8); //pick a number from 0 to 7
+				lcd.clear(); 
+				lcd.setCursor(0, 0); 
+				lcd.print("The ball says: "); 
+				lcd.setCursor(0,1 );
+				switch(reply){ 
+					case 0: lcd.print("Yes");
+					break; 
+					case 1: lcd.print("Most likely"); 
+					break; 
+					case 2: lcd.print("Certainly"); 
+					break; 
+					case 3: lcd.print("Outlook good"); 
+					break; 
+					case 4: lcd.print("Unsure"); 
+					break; 
+					case 5: lcd.print("Ask again"); 
+					break; 
+					case 6: lcd.print("Doubtful"); 
+					break;
+					case 7: lcd.print("No"); 
+					break; 
+				} //end of switch 
+			} //end of nested if() 
+		} //end of outer if()
+		//update the tilt switch status 
+		prevSwitchState = switchState;  
+	} //end of loop()
+	```
 
 6.  Once the code is in, click “**Start Simulation**”, then twist the potentiometer (the blue dial at the bottom) until you see words appear on the screen.
 
