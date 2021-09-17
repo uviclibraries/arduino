@@ -37,7 +37,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
     <img src="..\images\virtual_workshops\love-o-meter\code.png" alt="code" style="width:30px;">
 
-    ```
+```
 const int sensorPin = A0;
 // room temperature in Celsius
 const float baselineTemp = 20.0;
@@ -99,7 +99,7 @@ void loop(){
     }
     delay(100);
 }
-    ```
+```
 
     <img src="..\images\virtual_workshops\love-o-meter\animated_code_1.gif" alt="animated code" style="width:30px;">
 
