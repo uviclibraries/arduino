@@ -4,7 +4,6 @@ title: Love-o-Meter
 nav_order: 3
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Love-o-Meter
 
@@ -21,9 +20,9 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Green Wire
     - 3 Medium Wires
     - 2 Short Wires
-    <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:90px;">
-    <img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="width:90px;">
-    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:120px;">
+    <img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="width:120px;">
+    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:120px;">
 
     Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
