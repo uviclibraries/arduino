@@ -21,19 +21,19 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Short Yellow Wire
     - 3 Short Purple Wires
 
-2.  Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard.
+2.  Connect the black wire to the **GND** pin on the Arduino and then the “**-**” pin on the breadboard.
 
     <img src="..\images\in-person_workshops\electronic_die\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
     Note: you can check out a [simulated version](https://goo.gl/NYzKt4){:target="_blank"} of this Arduino project
 
-3.  Connect the gold end of the 560-ohm resistor to the ground or “**-**” side of the breadboard, and then to the “**B3**” pin in the breadboard. Connect the pins “**E3**” and “**F3**” using your short yellow wire.
+3.  Connect the gold end of the 560-ohm resistor to the ground or “**-**” side of the breadboard, and then to the **B3** pin in the breadboard. Connect the pins **E3** and **F3** using your short yellow wire.
 
 4.  For this circuit you will be connecting 4 LED lights in series. The order of the colours are arbitrary.
 
 5.  Place your first LED with the longer leg in the “**I3**” pin of the bread board, and the shorter leg into the “**I4**” pin.
 
-6.  Connect an orange wire from “**I4**” of the first LED to “**TX -> 1**” on the arduino.
+6.  Connect an orange wire from **I4** of the first LED to **TX -> 1** on the arduino.
 
 7.  Connect the remaining LED lights in series using the short purple wires, connecting each LED’s shorter leg to the one beside it.
 
@@ -43,7 +43,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 10.  Launch the arduino software.
 
-11.  Go to the top menu and select: “**Files**” -> “**New**”
+11.  Go to the top menu and select: **Files** **->** **New**
 
 12.  Delete any content in script window and paste the code from the following document:
 
