@@ -27,7 +27,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\in-person_workshops\light_theremin\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: you can check out a [simulated version](https://goo.gl/Tq5TpD){:target="_blank"} of this Arduino project
+    Note: you can check out a [simulated version](https://www.tinkercad.com/things/cangRSrMGHs){:target="_blank"} of this Arduino project
 
 3.  Using the provided USB cable plug your Arduino into your computer.
 
