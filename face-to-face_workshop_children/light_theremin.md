@@ -12,6 +12,8 @@ If you and your group have any questions or get stuck as you work through this i
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
     Materials needed:
+    <img src="..\images\in-person_workshops\light_theremin\piezo.png" alt="piezo" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\light_theremin\photores.png" alt="photoresistor" style="float:right;width:120px;">
     - 1 Piezo (this is basically a small speaker)
     - 1 Photoresistor (this is a light sensor)
     - 1 10k-ohm resistor with the following striping in order: brown, black, orange, gold
@@ -20,8 +22,6 @@ If you and your group have any questions or get stuck as you work through this i
     - 2 Short Wires
     - 1 Medium Wire
     - 1 Long Wire
-    <br><img src="..\images\in-person_workshops\light_theremin\piezo.png" alt="piezo" style="width:120px;">
-    <img src="..\images\in-person_workshops\light_theremin\photores.png" alt="photoresistor" style="width:120px;">
 
 2.  Connect as shown in this diagram (note: the Piezo legs are closer together than displayed here -- just make sure the two adjacent wires in Column A are in the same row as the Piezo legs):
 
