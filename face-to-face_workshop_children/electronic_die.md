@@ -4,7 +4,6 @@ title: Electronic Die
 nav_order: 6
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Electronic Die
 
@@ -19,8 +18,8 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Black Wire
     - 1 Short Yellow Wire
     - 3 Short Purple Wires
-    <img src="..\images\in-person_workshops\electronic_die\LED.png" alt="led" style="width:90px;">
-    <img src="..\images\in-person_workshops\electronic_die\560-ohm_res.png" alt="560 ohm resistor" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\electronic_die\LED.png" alt="led" style="width:120px;">
+    <img src="..\images\in-person_workshops\electronic_die\560-ohm_res.png" alt="560 ohm resistor" style="width:120px;">
 
 2.  Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard.
 
