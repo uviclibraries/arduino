@@ -27,7 +27,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     Connect as shown in this diagram:
 
-    <img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="float:right;width:180px;">
+    <img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:180px;">
 
 2.  Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
