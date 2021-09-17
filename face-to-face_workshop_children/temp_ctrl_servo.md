@@ -31,17 +31,17 @@ If you and your group have any questions or get stuck as you work through this i
 
     Using the USB cable, plug your Arduino into your computer.
 
-3.  This project requires code which is not provided by the Arduino software. Type the following URL into your browser search bar and copy the contents of the page into a new script on the Arduino IDE:
+3.  This project requires code which is not provided by the Arduino software. Follow the link below and copy the contents of the page into a new script on the Arduino IDE:
 
     [https://goo.gl/uZdaVm](https://goo.gl/uZdaVm){:target ="_blank"}
 
-4.  To create a new script on the Arduino IDE, select “**File**” -> “**New**” and save it with the name and location of your choice.
+4.  To create a new script on the Arduino IDE, select **File -> New** and save it with the name and location of your choice.
 
     <img src="..\images\in-person_workshops\temp_ctrl_servo\menus.png" alt="menu navigation" style="width:480px;">
 
 5.  After creating a new script, replace the content in the window with the code you have copied from the link in step 4.
 
-6.  When ready, click the “Upload” button (the right arrow in the top left corner).
+6.  When ready, click the **Upload** button (the right arrow in the top left corner).
 
     <img src="..\images\in-person_workshops\temp_ctrl_servo\upload.png" alt="upload" style="width:480px;">
 
