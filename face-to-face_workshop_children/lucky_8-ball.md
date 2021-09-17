@@ -47,6 +47,6 @@ If you and your group have any questions or get stuck as you work through this i
 
 9.  Twist the potentiometer until you see words appear on the screen. Once the code is uploaded and running, you trigger your Lucky 8-Ball by moving its base gently up and down to trigger the tilt sensor. The tilt sensor and the potentiometer can sometimes pop out, so you might have to keep a finger on the sensor as you shake it!
 
-10.  You should probably customize the responses of your lucky 8-Ball by going into the Arduino software and scrolling down to almost the bottom of the code for the project and look for, “lcd.print("Yes");”, and “lcd.print("Most likely");”. Go ahead and change any or all of the 8 different responses that your Lucky 8-Ball gives out (just remember that your responses still have to fit on the LCD screen). Upload your revised code, and you’re off to the races. Enjoy!
+10.  You should probably customize the responses of your lucky 8-Ball by going into the Arduino software and scrolling down to almost the bottom of the code for the project and look for, “**lcd.print("Yes");**”, and “**lcd.print("Most likely");**”. Go ahead and change any or all of the 8 different responses that your Lucky 8-Ball gives out (just remember that your responses still have to fit on the LCD screen). Upload your revised code, and you’re off to the races. Enjoy!
 
 [NEXT PROJECT: Electronic Die](electronic_die.html){: .btn .btn-blue }
