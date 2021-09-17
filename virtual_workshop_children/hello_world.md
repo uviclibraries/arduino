@@ -26,11 +26,11 @@ If you and your group have any questions or get stuck as you work through this i
 
     Connect as shown in this diagram:
 
-    <img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:180px;">
+    <img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:400px;">
 
 2.  Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
 
-    <img src="..\images\virtual_workshops\hello_world\simulation.png" alt="simulation" style="width:360px;">
+    <img src="..\images\virtual_workshops\hello_world\simulation.png" alt="simulation" style="width:400px;">
     <img src="..\images\virtual_workshops\hello_world\animated_breadboard.gif" alt="animated breadboard">
 
 3.  For fun, let’s make the LED light blink faster.  In the top right section click “**Code**”, scroll to the bottom of the code and change the two lines that say, “**delay(1000)**” to “**delay(250)**”.  Press “**Start Simulation**” and see the difference.   Feel free to play around with the code to see what changes. Have fun!
