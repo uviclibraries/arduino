@@ -4,7 +4,6 @@ title: Light Theremin
 nav_order: 7
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Light Theremin
 
@@ -21,8 +20,8 @@ If you and your group have any questions or get stuck as you work through this i
     - 2 Short Wires
     - 1 Medium Wire
     - 1 Long Wire
-    <br><img src="..\images\in-person_workshops\light_theremin\piezo.png" alt="piezo" style="width:90px;">
-    <img src="..\images\in-person_workshops\light_theremin\photores.png" alt="photoresistor" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\light_theremin\piezo.png" alt="piezo" style="width:120px;">
+    <img src="..\images\in-person_workshops\light_theremin\photores.png" alt="photoresistor" style="width:120px;">
 
 2.  Connect as shown in this diagram (note: the Piezo legs are closer together than displayed here -- just make sure the two adjacent wires in Column A are in the same row as the Piezo legs):
 
