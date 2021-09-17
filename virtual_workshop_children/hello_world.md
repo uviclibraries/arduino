@@ -10,7 +10,7 @@ parent: Virtual Workshop Activities
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:250px;">
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
@@ -21,7 +21,7 @@ If you and your group have any questions or get stuck as you work through this i
     - Breadboard Small
     - 1 LED light.
     - 1 220-ohm (or 220 Ω) Resistor with the following striping from left to right: red, red, brown, gold.
-    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="transform:rotate(270deg);width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="width:30px;">
     <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor" style="width:90px;">
 
     Connect as shown in this diagram:
