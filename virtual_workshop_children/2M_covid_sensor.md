@@ -4,7 +4,7 @@ title: 2M COVID Sensor
 nav_order: 5
 parent: Virtual Workshop Activities
 ---
-<img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="width:270px;">
+<img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
 
 # 2M COVID Sensor
 
