@@ -18,13 +18,12 @@ Materials needed:
 - 1 Long Red Wire
 - 1 Long Black Wire
 - 1 Short Wire
-
-<img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:30px;">
-<img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:60px;">
+<img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:60px;">
 
 Connect as shown in this diagram:
 
-<img src="..\images\in-person_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
 Note: You can check out a [simulated version](https://goo.gl/MfKe1i){:target="_blank"} of this Arduino Project
 
@@ -34,11 +33,11 @@ Note: You can check out a [simulated version](https://goo.gl/MfKe1i){:target="_b
 
 4. Go to the top menu and select: “**Files**” -> “**Examples**” -> “**01.Basics**” -> “**Blink**”
 
-<img src="..\images\in-person_workshops\hello_world\menus.png" alt="menu navigation" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\menus.png" alt="menu navigation" style="width:480px;">
 
 5. Upload the “**Blink**” code to your Arduino by pressing the “**Upload**” button.
 
-<img src="..\images\in-person_workshops\hello_world\upload.png" alt="upload button" style="width:30px;">
+<img src="..\images\in-person_workshops\hello_world\upload.png" alt="upload button" style="width:480px;">
 
 6. Your LED light should now be blinking! Congratulations!
 
