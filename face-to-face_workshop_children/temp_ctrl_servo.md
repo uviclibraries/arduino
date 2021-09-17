@@ -4,7 +4,6 @@ title: Temperature Controlled Servo
 nav_order: 4
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Temperature Controlled Servo
 
@@ -23,8 +22,8 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Red Jumper Wire
     - 1 Short Yellow Wire
     - 3 Short Purple Wires
-    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:90px;">
-    <img src="..\images\in-person_workshops\temp_ctrl_servo\servo.png" alt="servo" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:120px;">
+    <img src="..\images\in-person_workshops\temp_ctrl_servo\servo.png" alt="servo" style="width:120px;">
 
 2.  Connect the circuit as shown in the diagram below:
 
