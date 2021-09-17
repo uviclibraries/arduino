@@ -4,7 +4,6 @@ title: Lucky 8-Ball
 nav_order: 5
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Lucky 8-Ball
 
@@ -21,10 +20,10 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Red Wire
     - 1 Long Black Wire
     - See Below for the remaining wires and their placement
-    <img src="..\images\in-person_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="width:90px;">
-    <img src="..\images\in-person_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="width:90px;">
-    <img src="..\images\in-person_workshops\lucky_8-ball\tilt_switch.png" alt="tilt switch" style="width:90px;">
-    <img src="..\images\in-person_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="width:120px;">
+    <img src="..\images\in-person_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="width:120px;">
+    <img src="..\images\in-person_workshops\lucky_8-ball\tilt_switch.png" alt="tilt switch" style="width:120px;">
+    <img src="..\images\in-person_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="width:120px;">
 
 2.  Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard.
 
