@@ -12,7 +12,7 @@ If you and your group have any questions, or get stuck as you work through this 
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
-    <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:480px;">
 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
@@ -22,20 +22,19 @@ If you and your group have any questions, or get stuck as you work through this 
     - 3 LED Lights
     - 1 Temperature Sensor
     - 3 220-Ohm (or 220 &Omega;) Resistors with the following striping rom left to right: red, red, brown, gold
-
     <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="width:30px;">
-    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="width:30px;">
-    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="width:90px;">
+    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="width:45px;">
 
     Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
-    <img src="..\images\virtual_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:30px;">
+    <img src="..\images\virtual_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
     If desired, you can check out a [simulated version](https://goo.gl/azNRuk){:target="_blank"} of this Arduino project
 
 2.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
 
-    <img src="..\images\virtual_workshops\love-o-meter\code.png" alt="code" style="width:30px;">
+    <img src="..\images\virtual_workshops\love-o-meter\code.png" alt="code" style="width:480px;">
 
     ```
     const int sensorPin = A0;
@@ -101,10 +100,10 @@ If you and your group have any questions, or get stuck as you work through this 
     }
     ```
 
-    <img src="..\images\virtual_workshops\love-o-meter\animated_code_1.gif" alt="animated code" style="width:30px;">
+    <img src="..\images\virtual_workshops\love-o-meter\animated_code_1.gif" alt="animated code" style="width:480px;">
 
 3.  Once the code is in, click “**Start Simulation**”, then click on the **Temperature Sensor** and move the temperature bar up and down and see the effect on the lights
 
-    <img src="..\images\virtual_workshops\love-o-meter\animated_breadboard.gif" alt="animated breadboard" style="width:30px;">
+    <img src="..\images\virtual_workshops\love-o-meter\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
 
 [NEXT PROJECT: Light Theremin](light_theremin.html){: .btn .btn-blue }
