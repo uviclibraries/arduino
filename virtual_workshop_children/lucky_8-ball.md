@@ -10,9 +10,9 @@ parent: Virtual Workshop Activities
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="width:270px;">
 
-    <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="width:30px;">
+1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
@@ -22,12 +22,11 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 10k-ohm (or 10k&Omega;) Resistor with the following coloured bands: brown, black, orange, gold
     - 1 220-ohm (or 220 &Omega;) Resistor with the following coloured bands: red, red, brown, gold
     - 1 Potentiometer
-
     <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="width:30px;">
-    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="width:30px;">
-    <img src="..\images\virtual_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="width:30px;">
-    <img src="..\images\virtual_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="width:30px;">
-    <img src="..\images\virtual_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="width:30px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\potentiometer.png" alt="potentiometer" style="width:45px;">
+    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="width:90px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\10k-ohm_res.png" alt="10 kilo ohm resistor" style="width:90px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\220-ohm_res.png" alt="220 ohm resistor" style="width:90px;">
 
 2.  Connect the black wire to the “**GND**” pin on the Arduino and then the “**-**” pin on the breadboard (see the diagram below for details).
 
@@ -35,7 +34,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 4.  Connect all the other wires as can be seen in the diagram below.
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\breadboard_schematic.png" alt="breadboard" style="width:30px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
     Note: You can check out a [simulated version](https://goo.gl/9Lo9wQ){:target="_blank"} of this Arduino project
 
@@ -93,14 +92,14 @@ If you and your group have any questions or get stuck as you work through this i
 
 6.  Once the code is in, click “**Start Simulation**”, then twist the potentiometer (the blue dial at the bottom) until you see words appear on the screen.
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\breadboard_lcd.png" alt="breadboard lcd" style="width:30px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\breadboard_lcd.png" alt="breadboard lcd" style="width:480px;">
 
 7.  You trigger your Lucky 8-Ball by moving its base gently up and down to trigger the tilt sensor.
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\animated_breadboard.gif" alt="animated breadboard" style="width:30px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
 
 8.  You should probably customize the responses of your lucky 8-Ball by going into the Arduino software and scrolling down to almost the bottom of the code for the project and look for, “lcd.print("Yes");”, and “lcd.print("Most likely");”. Go ahead and change any or all of the 8 different responses that your Lucky 8-Ball gives out (just keep in mind that your custom responses should still display on the LCD screen). Upload your revised code, and you’re off to the races. Enjoy!
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\code_edit.gif" alt="code edit" style="width:30px;">
+    <img src="..\images\virtual_workshops\lucky_8-ball\code_edit.gif" alt="code edit" style="width:480px;">
 
 [NEXT STEP: Earn a Workshop Badge](../informal-credentials.html){: .btn .btn-blue }
