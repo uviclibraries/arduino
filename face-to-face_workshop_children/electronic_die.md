@@ -31,7 +31,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 4.  For this circuit you will be connecting 4 LED lights in series. The order of the colours are arbitrary.
 
-5.  Place your first LED with the longer leg in the “**I3**” pin of the bread board, and the shorter leg into the “**I4**” pin.
+5.  Place your first LED with the longer leg in the **I3** pin of the bread board, and the shorter leg into the **I4** pin.
 
 6.  Connect an orange wire from **I4** of the first LED to **TX -> 1** on the arduino.
 
