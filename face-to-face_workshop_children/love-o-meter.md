@@ -34,11 +34,11 @@ If you and your group have any questions or get stuck as you work through this i
 
 3.  Launch the Arduino software.
 
-4.  Go to the top menu and select: “**Files**” -> “**Examples**” -> “**10.StarterKit_BasicKit**” -> “**LoveOMeter**”
+4.  Go to the top menu and select: **Files -> Examples -> 10.StarterKit_BasicKit -> LoveOMeter**”
 
     <img src="..\images\in-person_workshops\love-o-meter\menus.png" alt="menu navigation" style="width:480px;">
 
-5.  Upload the “**LoveOMeter**” code to your Arduino by pressing the “**Upload**” button.
+5.  Upload the **LoveOMeter** code to your Arduino by pressing the **Upload** button.
 
     <img src="..\images\in-person_workshops\love-o-meter\upload.png" alt="upload" style="width:480px;">
 
