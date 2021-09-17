@@ -12,7 +12,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
-    Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
+    Once you have the account created, go to Dashboard **->** select **Circuits** on the left side panel **->** select **Create new Circuit**
 
     Materials needed (all of the materials are located in the Basic Components section on the right side, except for wires. You can also search for items):
     <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:30px;">
@@ -31,7 +31,7 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="..\images\virtual_workshops\hello_world\simulation.png" alt="simulation" style="width:480px;">
     <img src="..\images\virtual_workshops\hello_world\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
 
-3.  For fun, let’s make the LED light blink faster.  In the top right section click “**Code**”, scroll to the bottom of the code and change the two lines that say, “**delay(1000)**” to “**delay(250)**”.  Press “**Start Simulation**” and see the difference.   Feel free to play around with the code to see what changes. Have fun!
+3.  For fun, let’s make the LED light blink faster.  In the top right section click **Code**, scroll to the bottom of the code and change the two lines that say, **delay(1000)** to **delay(250)**.  Press **Start Simulation** and see the difference.   Feel free to play around with the code to see what changes. Have fun!
 
     <img src="..\images\virtual_workshops\hello_world\code.png" alt="code" style="width:480px;">
     <img src="..\images\virtual_workshops\hello_world\animated_code.gif" alt="animated code" style="width:480px;">
