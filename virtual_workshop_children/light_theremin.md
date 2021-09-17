@@ -25,7 +25,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\virtual_workshops\light_theremin\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: you can check out a [simulated version](https://goo.gl/Tq5TpD){:target="_blank"} of this Arduino project
+    Note: you can check out a [simulated version](https://www.tinkercad.com/things/cangRSrMGHs){:target="_blank"} of this Arduino project
 
 2.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the **Code** section, switch the option to **Text** and paste the following code (replacing the code that is already there):
 
