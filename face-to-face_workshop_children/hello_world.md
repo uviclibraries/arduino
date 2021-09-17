@@ -4,7 +4,6 @@ title: Hello World
 nav_order: 2
 parent: Face-to-Face Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
 
 # Hello World
 
@@ -18,8 +17,8 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Red Wire
     - 1 Long Black Wire
     - 1 Short Wire
-    <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:90px;">
-    <img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:90px;">
+    <br><img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:120px;">
+    <img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:120px;">
 
     Connect as shown in this diagram:
 
