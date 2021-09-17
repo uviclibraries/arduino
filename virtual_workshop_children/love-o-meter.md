@@ -41,7 +41,6 @@ If you and your group have any questions, or get stuck as you work through this 
 const int sensorPin = A0;
 // room temperature in Celsius
 const float baselineTemp = 20.0;
-
 void setup(){
     // open a serial connection to display values
     Serial.begin(9600);
@@ -52,7 +51,6 @@ void setup(){
         digitalWrite(pinNumber, LOW);
     }
 }
-
 void loop(){
     // read the value on AnalogIn pin 0 
     // and store it in a variable
