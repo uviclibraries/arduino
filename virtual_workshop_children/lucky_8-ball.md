@@ -4,7 +4,7 @@ title: Lucky 8-Ball
 nav_order: 6
 parent: Virtual Workshop Activities
 ---
-<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="width:270px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
 
 # Lucky 8-Ball
 
