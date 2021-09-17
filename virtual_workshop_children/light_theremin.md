@@ -4,24 +4,22 @@ title: Light Theremin
 nav_order: 4
 parent: Virtual Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="width:270px;">
 
 # Light Theremin
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
-
-<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="width:270px;">
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed: 
+    <img src="..\images\virtual_workshops\light_theremin\piezo.png" alt="piezo" style="width:45px;">
+    <img src="..\images\virtual_workshops\light_theremin\photores.png" alt="photoresistor" style="width:45px;">
     - 1 Piezo (this is basically a small speaker)
     - 1 Photoresistor (this is a light sensor)
     - 1 10k-ohm (or 10k&Omega;) Resistor with the following striping from left to right: brown, black, orange, gold
-    <img src="..\images\virtual_workshops\light_theremin\piezo.png" alt="piezo" style="width:45px;">
-    <img src="..\images\virtual_workshops\light_theremin\photores.png" alt="photoresistor" style="width:45px;">
 
     Connect as shown in this diagram (note: the Piezo legs are closer together than displayed here -- just make sure the two adjacent wires in Column A are in the same row as the Piezo legs):
 
