@@ -15,8 +15,8 @@ If you and your group have any questions or get stuck as you work through this i
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed: 
-    <img src="..\images\virtual_workshops\light_theremin\piezo.png" alt="piezo" style="width:45px;">
-    <img src="..\images\virtual_workshops\light_theremin\photores.png" alt="photoresistor" style="width:45px;">
+    <img src="..\images\virtual_workshops\light_theremin\piezo.png" alt="piezo" style="float:right;width:45px;">
+    <img src="..\images\virtual_workshops\light_theremin\photores.png" alt="photoresistor" style="float:right;width:45px;">
     - 1 Piezo (this is basically a small speaker)
     - 1 Photoresistor (this is a light sensor)
     - 1 10k-ohm (or 10k&Omega;) Resistor with the following striping from left to right: brown, black, orange, gold
