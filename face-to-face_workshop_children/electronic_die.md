@@ -47,7 +47,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 12.  Delete any content in script window and paste the code from the following document:
 
-    [https://goo.gl/ZcRBf4](https://goo.gl/ZcRBf4){:target="_blank"}
+     [https://goo.gl/ZcRBf4](https://goo.gl/ZcRBf4){:target="_blank"}
 
 13.  **TODO: RESOLVE THIS WORKSHOP WITH A CUTE LINE**
 
