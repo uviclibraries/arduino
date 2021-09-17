@@ -12,13 +12,13 @@ If you and your group have any questions or get stuck as you work through this i
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
     Materials needed:
+    <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="float:right;width:120px;">
     - 1 LED Light
     - 1 220-ohm Resistor with the following striping in order: red, red, brown, gold
     - 1 Long Red Wire
     - 1 Long Black Wire
     - 1 Short Wire
-    <br><img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:120px;">
-    <img src="..\images\in-person_workshops\hello_world\res.png" alt="res" style="width:120px;">
 
     Connect as shown in this diagram:
 
