@@ -4,27 +4,25 @@ title: Love-o-Meter
 nav_order: 3
 parent: Virtual Workshop Activities
 ---
-<img src="..\images\arduino-icon.png" alt="arduino icon" style="float:right;width:180px;">
+<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:270px;">
 
 # Love-o-Meter
 
 If you and your group have any questions, or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
-
-<img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:270px;">
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
     Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
 
     Materials needed (you might find it helpful to drag all the items into the workspace before you start putting them together):
+    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="float:right;width:30px;">
+    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="float:right;width:90px;">
+    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="float:rightwidth:45px;">
     - Arduino Uno R3
     - Breadboard Small
     - 3 LED Lights
     - 1 Temperature Sensor
     - 3 220-Ohm (or 220 &Omega;) Resistors with the following striping rom left to right: red, red, brown, gold
-    <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led cartoon" style="width:30px;">
-    <img src="..\images\virtual_workshops\hello_world\resistor_cartoon.png" alt="resistor cartoon" style="width:90px;">
-    <img src="..\images\virtual_workshops\love-o-meter\temp_sensor.png" alt="temp sensor cartoon" style="width:45px;">
 
     Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
