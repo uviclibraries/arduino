@@ -34,7 +34,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\virtual_workshops\lucky_8-ball\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: You can check out a [simulated version](https://goo.gl/9Lo9wQ){:target="_blank"} of this Arduino project
+    Note: You can check out a [simulated version](https://www.tinkercad.com/things/iA5jDh1yDiz){:target="_blank"} of this Arduino project
 
 5.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the **Code** section, switch the option to **Text** and paste the following code (replacing the code that is already there):
 
