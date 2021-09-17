@@ -12,7 +12,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
-    Once you have the account created, go to Dashboard **->** select “**circuits**” on the left side panel **->** select “**Create new Circuit**”
+    Once you have the account created, go to Dashboard **->** select **Circuits** on the left side panel **->** select **Create new Circuit**
 
     Materials needed: 
     <img src="..\images\virtual_workshops\light_theremin\piezo.png" alt="piezo" style="float:right;width:60px;">
@@ -27,7 +27,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     Note: you can check out a [simulated version](https://goo.gl/Tq5TpD){:target="_blank"} of this Arduino project
 
-2.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the “**Code**” section, switch the option to “**Text**” and paste the following code (replacing the code that is already there):
+2.  TinkerCad would not produce the desired code by itself, so once everything is connected, go to the **Code** section, switch the option to **Text** and paste the following code (replacing the code that is already there):
 
     ```
     int sensorValue;
@@ -72,7 +72,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\virtual_workshops\light_theremin\animated_code_setup.gif" alt="animated code" style="width:480px;">
 
-3.  Once the code is in, click “**Start Simulation**”, then click on the **Photoresistor** and move the light bar down and wait for the sound effect. 
+3.  Once the code is in, click **Start Simulation**, then click on the **Photoresistor** and move the light bar down and wait for the sound effect. 
     **NOTE: There is a 5 second initialization phase where the ambient light level is recorded (Note: the timer at the top for the countdown, which will take more than 5 seconds because it’s keeping track of “computer” time).** After that, move the photoresistor bar up and down to make some crazy Theremin sounds!  Enjoy!
 
     <img src="..\images\virtual_workshops\light_theremin\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
