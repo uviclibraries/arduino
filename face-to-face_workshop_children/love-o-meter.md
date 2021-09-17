@@ -12,6 +12,9 @@ If you and your group have any questions or get stuck as you work through this i
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software){:target="_blank"} for either Windows or Mac, and then install the software on your computer.
 
     Materials needed:
+    <img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="float:right;width:120px;">
+    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="float:right;width:120px;">
     - 3 LED Lights
     - 1 Temperature Sensor
     - 3 220-ohm Resistors with the following striping in order: red, red, brown, gold
@@ -20,9 +23,6 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 Long Green Wire
     - 3 Medium Wires
     - 2 Short Wires
-    <br><img src="..\images\in-person_workshops\hello_world\led.png" alt="led" style="width:120px;">
-    <img src="..\images\in-person_workshops\hello_world\res.png" alt="led" style="width:120px;">
-    <img src="..\images\in-person_workshops\temp_ctrl_servo\temp_sensor.png" alt="temperature sensor" style="width:120px;">
 
     Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
