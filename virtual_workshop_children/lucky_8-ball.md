@@ -26,9 +26,9 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 220-ohm (or 220 &Omega;) Resistor with the following coloured bands: red, red, brown, gold
     - 1 Potentiometer
 
-2.  Connect the black wire to the **GND** pin on the Arduino and then the **-** pin on the breadboard (see the diagram below for details).
+2.  Connect the black wire to the **GND** pin on the Arduino and then the "**-**" pin on the breadboard (see the diagram below for details).
 
-3.  Connect the red wire to the **5V** pin on the Arduino and then the **+** pin on the breadboard.
+3.  Connect the red wire to the **5V** pin on the Arduino and then the "**+**" pin on the breadboard.
 
 4.  Connect all the other wires as can be seen in the diagram below.
 
