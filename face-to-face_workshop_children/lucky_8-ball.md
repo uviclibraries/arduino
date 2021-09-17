@@ -33,7 +33,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\in-person_workshops\lucky_8-ball\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: you can check out a [simulated version](https://goo.gl/9Lo9wQ){:target="_blank"} of this Arduino project
+    Note: you can check out a [simulated version](https://www.tinkercad.com/things/iA5jDh1yDiz){:target="_blank"} of this Arduino project
 
 5.  Using the provided USB cable plug your Arduino into your computer.
 
