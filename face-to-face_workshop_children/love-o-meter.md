@@ -26,7 +26,7 @@ If you and your group have any questions or get stuck as you work through this i
 
     Attach as displayed in this diagram (note that the squiggly lines indicate the longer legs of the LEDs):
 
-    <img src="..\images\in-person_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:30px;">
+    <img src="..\images\in-person_workshops\love-o-meter\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
     Note: you can check out a [simulated version](https://goo.gl/azNRuk){:target="_blank"} of this Arduino Project
 
@@ -36,11 +36,11 @@ If you and your group have any questions or get stuck as you work through this i
 
 4.  Go to the top menu and select: “**Files**” -> “**Examples**” -> “**10.StarterKit_BasicKit**” -> “**LoveOMeter**”
 
-    <img src="..\images\in-person_workshops\love-o-meter\menus.png" alt="menu navigation" style="width:30px;">
+    <img src="..\images\in-person_workshops\love-o-meter\menus.png" alt="menu navigation" style="width:480px;">
 
 5.  Upload the “**LoveOMeter**” code to your Arduino by pressing the “**Upload**” button.
 
-    <img src="..\images\in-person_workshops\love-o-meter\upload.png" alt="upload" style="width:30px;">
+    <img src="..\images\in-person_workshops\love-o-meter\upload.png" alt="upload" style="width:480px;">
 
 6.  Hold on to the heat sensor and the lights should start lighting up after 30 seconds.  If it takes more than 30 seconds to respond, you might want to try changing the following line of code from 20.0 to 17.0 and then upload it again. Vary this number until it works the way you want it to!
 
