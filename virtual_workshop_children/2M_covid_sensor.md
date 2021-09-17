@@ -35,13 +35,13 @@ If you and your group have any questions or get stuck as you work through this i
     <img src="..\images\virtual_workshops\2M_covid_sensor\code.png" alt="code" style="width:30px;">
 
     ```
-int LED_GREEN = 3;
-int LED_RED = 2;
-int TRIG_PIN = 6;
-int ECHO_PIN = 5;
+    int LED_GREEN = 3;
+    int LED_RED = 2;
+    int TRIG_PIN = 6;
+    int ECHO_PIN = 5;
 
-// the setup function runs once when you press reset or power the board
-void setup() {
+    // the setup function runs once when you press reset or power the board
+    void setup() {
     Serial.begin(9600);
     // initialize led pins as output.
     pinMode(LED_GREEN, OUTPUT);
@@ -50,10 +50,10 @@ void setup() {
     // initialize sensor pins
     pinMode(ECHO_PIN, INPUT);
     pinMode(TRIG_PIN, OUTPUT);
-}
+    }
 
-// the loop function runs over and over again forever
-void loop() {
+    // the loop function runs over and over again forever
+    void loop() {
     delay(300);
 
     // Clears the TRIG_PIN condition
@@ -79,7 +79,7 @@ void loop() {
     // Set the led state based on the distance
     digitalWrite(LED_GREEN, distance  >= 200 ? HIGH : LOW);
     digitalWrite(LED_RED, distance < 200 ? HIGH : LOW);
-}
+    }
     ```
 
 3.  Once everything is connected, click “Start Simulation” in the top right corner. You should see the light starting to blink
