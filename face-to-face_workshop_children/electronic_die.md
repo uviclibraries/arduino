@@ -25,8 +25,6 @@ If you and your group have any questions or get stuck as you work through this i
 
     <img src="..\images\in-person_workshops\electronic_die\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
-    Note: you can check out a [simulated version](https://goo.gl/NYzKt4){:target="_blank"} of this Arduino project
-
 3.  Connect the gold end of the 560-ohm resistor to the ground or “**-**” side of the breadboard, and then to the **B3** pin in the breadboard. Connect the pins **E3** and **F3** using your short yellow wire.
 
 4.  For this circuit you will be connecting 4 LED lights in series. The order of the colours are arbitrary.
