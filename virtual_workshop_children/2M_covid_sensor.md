@@ -12,7 +12,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 1.  If you haven’t already, please go to the TinkerCad website and [create an account](https://www.tinkercad.com/){:target="_blank"}
 
-    Once you have the account created, go to Dashboard **->** select **Circuits** on the left side panel **->** select **Create new Circuit**
+    Once you have the account created, go to **Dashboard ->** select **Circuits** on the left side panel **->** select **Create new Circuit**
 
     Materials needed (all of the materials are located in the Basic Components section on the right side, except for wires. You can also search for items):
     <img src="..\images\virtual_workshops\hello_world\led_cartoon.png" alt="led" style="float:right;width:45px;">
