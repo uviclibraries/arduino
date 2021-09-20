@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Pre-Workshop Preparation Quiz
+title: Preparation Quiz
 nav_order: 2
 parent: Pre-Workshop Activities
 ---
-# Pre-Workshop Preparation Quiz
+# Preparation Quiz
 
 Let's see what you've picked up! Feel free to complete [this optional quiz](http://bit.ly/2OEFyaJ){:target="_blank"}
 
