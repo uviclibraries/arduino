@@ -25,7 +25,7 @@ This workshop is primarily hands-on work with hardware and software. To particip
 
 - Let's see what you've picked up! Feel free to complete [this optional quiz](http://bit.ly/2OEFyaJ){:target="_blank"}
 
-- Now you're ready to advance to either the Virtual Workshop Activities or the Face-to-Face Workshop Activities depending on your situation
+- Now you're ready to advance to either the Virtual Workshop Activities or the Face-to-Face Workshop Activities depending on whether or not you are working through this workshop on your own (Virtual Activities) or in the library (Face-to-Face Activities:
 
 [VIRTUAL WORKSHOP ACTIVITIES](workshop_activities_virtual.html){: .btn .btn-blue }
 
