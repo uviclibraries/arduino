@@ -19,7 +19,7 @@ This workshop is primarily hands-on work with hardware and software. To particip
 
 - **2 minutes**: [Virtual Arduino: Circuits.io](https://richmccue.com/2017/06/20/want-to-use-an-arduino-but-dont-have-one/){:target="_blank"}
 
-- **10 minutes**: [Arduino Cartoon Introduction](https://playground.arduino.cc/uploads/Main/arduino_comic_v0004.pdf){:target="_blank"}
+- **10 minutes**: [Arduino Cartoon Introduction](https://bit.ly/3zC5A0e){:target="_blank"}
 
 ### Preparation Quiz
 
