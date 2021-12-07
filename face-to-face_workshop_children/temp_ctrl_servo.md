@@ -5,7 +5,7 @@ nav_order: 4
 parent: Face-to-Face Workshop Activities
 ---
 
-# Temperature Controlled ServoE
+# Temperature Controlled Servo
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
