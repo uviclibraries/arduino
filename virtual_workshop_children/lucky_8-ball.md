@@ -3,6 +3,7 @@ layout: default
 title: Lucky 8-Ball
 nav_order: 6
 parent: Virtual Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
 
@@ -94,10 +95,34 @@ If you and your group have any questions or get stuck as you work through this i
 
 7.  You trigger your Lucky 8-Ball by moving its base gently up and down to trigger the tilt sensor.
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
+      <img src="..\images\virtual_workshops\lucky_8-ball\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
+     </div> 
+
+   
 
 8.  You should probably customize the responses of your lucky 8-Ball by going into the Arduino software and scrolling down to almost the bottom of the code for the project and look for, **lcd.print("Yes");**, and **lcd.print("Most likely");**. Go ahead and change any or all of the 8 different responses that your Lucky 8-Ball gives out (just keep in mind that your custom responses should still display on the LCD screen). Upload your revised code, and you’re off to the races. Enjoy!
 
-    <img src="..\images\virtual_workshops\lucky_8-ball\code_edit.gif" alt="code edit" style="width:480px;">
+
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
+     <img src="..\images\virtual_workshops\lucky_8-ball\code_edit.gif" alt="code edit" style="width:480px;">
+     </div> 
+
+    
+
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT STEP: Earn a Workshop Badge](../informal-credentials.html){: .btn .btn-blue }

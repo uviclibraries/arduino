@@ -3,6 +3,7 @@ layout: default
 title: Love-o-Meter
 nav_order: 3
 parent: Virtual Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:270px;">
 
@@ -98,10 +99,33 @@ If you and your group have any questions, or get stuck as you work through this 
     }
     ```
 
-    <img src="..\images\virtual_workshops\love-o-meter\animated_code_1.gif" alt="animated code" style="width:480px;">
+
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
+     <img src="..\images\virtual_workshops\love-o-meter\animated_code_1.gif" alt="animated code" style="width:480px;">
+     </div> 
+
+    
 
 3.  Once the code is in, click **Start Simulation**, then click on the **Temperature Sensor** and move the temperature bar up and down and see the effect on the lights
 
-    <img src="..\images\virtual_workshops\love-o-meter\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
+     <img src="..\images\virtual_workshops\love-o-meter\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
+     </div> 
+
+   
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT PROJECT: Light Theremin](light_theremin.html){: .btn .btn-blue }

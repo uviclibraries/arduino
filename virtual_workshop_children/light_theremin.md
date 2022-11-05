@@ -3,6 +3,7 @@ layout: default
 title: Light Theremin
 nav_order: 4
 parent: Virtual Workshop Activities
+customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:270px;">
 
@@ -70,11 +71,35 @@ If you and your group have any questions or get stuck as you work through this i
     }
     ```
 
+<button onclick="toggle('gif1')">Show/Hide Animation</button>
+<div id="gif1">
     <img src="..\images\virtual_workshops\light_theremin\animated_code_setup.gif" alt="animated code" style="width:480px;">
+     </div> 
+
+    
 
 3.  Once the code is in, click **Start Simulation**, then click on the **Photoresistor** and move the light bar down and wait for the sound effect. 
     **NOTE: There is a 5 second initialization phase where the ambient light level is recorded (Note: the timer at the top for the countdown, which will take more than 5 seconds because it’s keeping track of “computer” time).** After that, move the photoresistor bar up and down to make some crazy Theremin sounds!  Enjoy!
 
+
+<button onclick="toggle('gif2')">Show/Hide Animation</button>
+<div id="gif2">
     <img src="..\images\virtual_workshops\light_theremin\animated_breadboard.gif" alt="animated breadboard" style="width:480px;">
+     </div> 
+
+
+
+
+<script>  
+
+    function toggle(input) {
+        var x = document.getElementById(input);
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
 
 [NEXT PROJECT: 2M COVID Sensor](2M_covid_sensor.html){: .btn .btn-blue }
