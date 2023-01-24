@@ -9,7 +9,6 @@ parent: Virtual Workshop Activities
 
 - Please review the following [Introductory Slides](https://goo.gl/6BaeTh){:target="_blank"}
 
-- Resize Your Laptop Screen for Workshop Handouts (2 min)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Igk5hZUfzN0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+- Video: [Resize Your Laptop Screen for Workshop Handouts (2 min)](https://www.youtube.com/watch?v=Igk5hZUfzN0){:target="_blank"}
 
 [NEXT PROJECT: Hello World](hello_world.html){: .btn .btn-blue }
