@@ -23,7 +23,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 2.  Connect the black wire to the **GND** pin on the Arduino and then the “**-**” pin on the breadboard.
 
-    <img src="..\images\in-person_workshops\electronic_die\breadboard_schematic.png" alt="breadboard" style="width:480px;">
+    <img src="..\images\in-person_workshops\electronic_die\breadboard_schematic_2.png" alt="breadboard" style="width:480px;">
 
 3.  Connect the gold end of the 560-ohm resistor to the ground or “**-**” side of the breadboard, and then to the **B3** pin in the breadboard. Connect the pins **E3** and **F3** using your short yellow wire.
 
