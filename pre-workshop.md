@@ -13,7 +13,10 @@ This workshop is primarily hands-on work with hardware and software. To particip
 - For the In-Library Workshop, [download the Arduino IDE](https://www.arduino.cc/en/software){:target="_blank"}
 
 - **5 minutes**: [An Introduction to the Arduino](https://www.youtube.com/watch?v=CqrQmQqpHXc){:target="_blank"} <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CqrQmQqpHXc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CqrQmQqpHXc" title="An Introduction to the Arduino" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+- **22 minutes**: OPTIONAL - [Arduino 101- Crash Course w/ Mark Rober](https://www.youtube.com/watch?v=yi29dbPnu28){:target="_blank"} <br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yi29dbPnu28" title="Arduino 101- Crash Course w/ Mark Rober" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 - **3 minutes**: [Problems Arduino Can Solve (AKA Cool Arduino Projects)](https://richmccue.com/2017/06/20/so-many-cool-arduino-project-where-to-start/){:target="_blank"}
 
