@@ -23,7 +23,7 @@ If you and your group have any questions or get stuck as you work through this i
     - 1 LED light.
     - 1 220-ohm (or 220 Ω) Resistor with the following striping from left to right: red, red, brown, gold.
 
-    Connect as shown in this diagram:
+    Connect as shown in this nice diagram:
 
     <img src="..\images\virtual_workshops\hello_world\breadboard_schematic.png" alt="breadboard" style="width:480px;">
 
