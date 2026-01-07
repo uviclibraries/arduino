@@ -53,8 +53,9 @@ If you and your group have any questions or get stuck as you work through this i
 10. Select the com port for the board from the tool manu. Open the serial port window.
     <img src="..\images\in-person_workshops\audio_player\selectcom.png" alt="boardmanager" style="float:right;width:1200px;">
     
-11.  Open the project with below path. Delete the codes for the file and replace with this file:   Open the serial port window. Press the arrow button and upload the codes to the board. Wait for a few seconds.
-
+11.  Open the project with below path:Your Arduino IDE path\Arduino\libraries\MKRZero\examples\SimpleAudioPlayerZero\SimpleAudioPlayerZero.io Delete the codes for the file and replace with this file:  Press the arrow button and upload the codes to the board. Wait for a few seconds.
+ <img src="..\images\in-person_workshops\audio_player\filepath.png" alt="filepath" style="float:right;width:1200px;">
+ 
 12.  From the serial minitor window, you will see the test.wav file has been open and it keeps on printing out the distance information. Put your hands or other object closer to the ultrsonic sensor (less then 20cm), you will hear the music from the speaker! Enjoy the music!
 ***You might hear noises from the speaker, try to make the power source 'clean' or use filter to filter the noises, ask for help!
  
