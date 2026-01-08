@@ -36,7 +36,9 @@ If you and your group have any questions or get stuck as you work through this i
 
  paste the codes from link below:
  https://drive.google.com/file/d/1MjVNvSdijq45YQKWWXrXKRewwlCtaCjq/view?usp=sharing
+
  and select the arduino uno as in the boards management menue:
+ 
  <img src="..\images\in-person_workshops\covid_sensor\distance_boardselect.png" alt="upload" style="width:600px;">
 
 5.  Upload the codes to your Arduino by pressing the **Upload** button.
@@ -46,7 +48,10 @@ If you and your group have any questions or get stuck as you work through this i
 6.  Open the serial mornitor window from the Tools menu, you will keep on seeing the distance in cm unit output from the serial mornitor window. Put your hand or other objects closer to the ultrasonic sensor for less than 20 cm, you will see the red LED on and green light will be off; move the objects away, you will see the red light off and green light on. Change the threshold value in the codes to see the what will changes. Enjoy!
 
 Object is 20 cm away:
-     <img src="..\images\in-person_workshops\covid_sensor\greenlight.png" alt="upload" style="width:600px;">
+
+<img src="..\images\in-person_workshops\covid_sensor\greenlight.jpg" alt="greenlight" style="width:600px;">
+     
 Object is in 20 cm :
-     <img src="..\images\in-person_workshops\covid_sensor\redlight.png" alt="upload" style="width:600px;">
+
+<img src="..\images\in-person_workshops\covid_sensor\redlight.jpg" alt="redlight" style="width:600px;">
 
