@@ -17,36 +17,36 @@ The other option is to use the cloud editor based on browser which would be even
 
 2.  Visit the ulr: https://cloud.arduino.cc/ with your browser:
  
- <img src="..\images\in-person_workshops\cloud_IDE\cloud_main_page.png" alt="cloud_main_page" style="width:600px;">
+ <img src="..\images\in-person_workshops\cloud_editor\cloud_main_page.png" alt="cloud_main_page" style="width:600px;">
 
 3. Click the menu icon on the top right corner of the page and enter into the app:
 
- <img src="..\images\in-person_workshops\cloud_IDE\open_app.png" alt="open_app" style="width:600px;">
+ <img src="..\images\in-person_workshops\cloud_editor\open_app.png" alt="open_app" style="width:600px;">
 
 4. After installing the Arduino Cloud Agent plugin and create an account or use third-party account like github, you will enter into the profile page of your account
 
-<img src="..\images\in-person_workshops\cloud_IDE\home_page.png" alt="cloud_home_page" style="width:600px;">  
+<img src="..\images\in-person_workshops\cloud_editor\home_page.png" alt="cloud_home_page" style="width:600px;">  
 
 5. Create a new sketch:
 
-<img src="..\images\in-person_workshops\cloud_IDE\create_new_sketch.png" alt="create_new_sketch" style="width:600px;">  
+<img src="..\images\in-person_workshops\cloud_editor\create_new_sketch.png" alt="create_new_sketch" style="width:600px;">  
 
 
 6. Edit the codes in the sketch:
 
-<img src="..\images\in-person_workshops\cloud_IDE\edit_codes.png" alt="edit_codes" style="width:600px;">  
+<img src="..\images\in-person_workshops\cloud_editor\edit_codes.png" alt="edit_codes" style="width:600px;">  
 
 7. Select the device and ports: 
 
- <img src="..\images\in-person_workshops\cloud_IDE\select_device.png" alt="select_device" style="width:600px;">  
+ <img src="..\images\in-person_workshops\cloud_editor\select_device.png" alt="select_device" style="width:600px;">  
 
 8. Complie the codes and upload the codes to the Arduino boards:
 
-<img src="..\images\in-person_workshops\cloud_IDE\complie_upload.png" alt="complie_upload" style="width:600px;">  
+<img src="..\images\in-person_workshops\cloud_editor\complie_upload.png" alt="complie_upload" style="width:600px;">  
 
 
 9.  Turn on the serial monitor window by clicking the top right corner of the sketch page and get the serial port printing outputs:
 
-   <img src="..\images\in-person_workshops\cloud_IDE\serial_monitor.png" alt="serial_monitor" style="width:600px;">  
+   <img src="..\images\in-person_workshops\cloud_editor\serial_monitor.png" alt="serial_monitor" style="width:600px;">  
 
 ***Cloud editor can only support boards that compatible with desktop Arduino IDE, such as Arduino UNO, MKR Zero and Adafruit feather Huzzah 8266. 
