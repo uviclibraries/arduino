@@ -23,21 +23,21 @@ or  MKR  WIFI 1010 :
 
 <img src="..\images\in-person_workshops\audio_player\MKRWIFI1010_bottom.png" alt="arduino-mkr-zero" style="float:right;width:320px;">
 
-    - HC-SR04 Ultrasonic sensor (see below)
+ - HC-SR04 Ultrasonic sensor (see below)
 
-      <img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
+<img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
 
-    - One LM386 amplifier board (see below)
+- One LM386 amplifier board (see below)
 
 <img src="..\images\in-person_workshops\audio_player\LM386.png" alt="LM386" style="float:right;width:320px;">
     
-    - One speaker (see below)   
- <img src="..\images\in-person_workshops\audio_player\speaker.png" alt="speaker" style="float:right;width:220px;">    
+- One speaker (see below)   
+<img src="..\images\in-person_workshops\audio_player\speaker.png" alt="speaker" style="float:right;width:220px;">    
     
-    - One 32GB SD card with FAT file system and stored with a .wav audio file(test.wav)
+- One 32GB SD card with FAT file system and stored with a .wav audio file(test.wav)
 
 If you are using MKR WIFI 1010 which doesn't have a on-board SD card slot shield, you need to use an extra SD card slot shield:
- - One speaker (see below)   
+ - One SD card slot shield (see below)   
  <img src="..\images\in-person_workshops\audio_player\SDcardshield.png" alt="speaker" style="float:right;width:220px;">
   
 2.   Make sure that the SD card have correct audio file(test.wav) and then insert the SD card into the SD card slot. 
@@ -50,10 +50,10 @@ If you are using MKR WIFI 1010 which doesn't have a on-board SD card slot shield
 For MKR zero:
      <img src="..\images\in-person_workshops\audio_player\audio_player3.png" alt="audio_player" style="float:right;width:1200px;">
 
-For MKR WIFI 1000:
+For MKR WIFI 1010:
       <img src="..\images\in-person_workshops\audio_player\audio_player_mkrwifi1010_3.png" alt="audio_player" style="float:right;width:1200px;">
      
-     Detailed explanation for the audio player application with Arduino Zero/MKR Zero/1000 WIFI can be referred to the link: https://docs.arduino.cc/tutorials/generic/simple-audio-player/ 
+Detailed explanation for the audio player application with Arduino Zero/MKR Zero/1000 WIFI can be referred to the link: https://docs.arduino.cc/tutorials/generic/simple-audio-player/ 
     
 5.  Launch the arduino IDE. Use the provided USB cable to connect your Arduino board to your computer.
 
