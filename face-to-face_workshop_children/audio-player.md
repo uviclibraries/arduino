@@ -54,7 +54,9 @@ For MKR WIFI 1010:
       <img src="..\images\in-person_workshops\audio_player\audio_player_mkrwifi1010_3.png" alt="audio_player" style="float:right;width:1200px;">
      
 Detailed explanation for the audio player application with Arduino Zero/MKR Zero/1000 WIFI can be referred to the link: https://docs.arduino.cc/tutorials/generic/simple-audio-player/ 
-    
+
+***Please notice that the breadboard power has to be connected to 5V (from Arduino MKR board), otherwise, the SD card shield won't work) 
+
 5.  Launch the arduino IDE. Use the provided USB cable to connect your Arduino board to your computer.
 
 6.  Install the libraries for the MKR board: Go to the menu: Tools-boards manager-search with keyword 'MKR' and install
