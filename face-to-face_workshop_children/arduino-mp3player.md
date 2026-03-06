@@ -7,8 +7,7 @@ parent: Face-to-Face Workshop Activities
 
 # Arduino MP3 Player
 
-This page is for a solution with Arduino UNO + low-noise MP3 player. Another solution for audio play with Arduino MKR WiFi 1010 can be found 
-in audio-player.md
+This page is for a Arduino audio player solution with Arduino UNO R3 + low-noise MP3 player. Another solution for audio play with Arduino MKR WiFi 1010 or MKR Zero can be found in audio-player.md
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -16,11 +15,10 @@ If you and your group have any questions or get stuck as you work through this i
 
     Materials needed:
  
-    - 1 Arduino UNO (see below)
+    - 1 Arduino UNO R3 (see below)
     
-     <img src="..\images\in-person_workshops\audio_player\arduino-mkr-zero.png" alt="arduino-mkr-zero" style="float:right;width:320px;">
+     <img src="..\images\in-person_workshops\mp3player\arduino_r3.png" alt="arduino_r3" style="float:right;width:320px;">
 
-or  MKR  WIFI 1010 :
 
  - MP3 player with SD card shield slot and 3.5mm Jack audio connector (see below)
    
@@ -28,17 +26,17 @@ or  MKR  WIFI 1010 :
 
 <img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
 
-- One LM386 amplifier board (see below)
+- YX5300 MP3 player board (see below)
 
-<img src="..\images\in-person_workshops\audio_player\LM386.png" alt="LM386" style="float:right;width:320px;">
+<img src="..\images\in-person_workshops\mp3player\yx5300.png" alt="LM386" style="float:right;width:320px;">
     
 - One active(embedded with amplifier) speaker (see below)
    
-<img src="..\images\in-person_workshops\audio_player\speaker.png" alt="speaker" style="float:right;width:220px;">    
+<img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
     
 - One 32GB SD card with FAT file system and stored with some .wav or .mp3 audio files. The file name has to be in the
-- format of file order+ three characters.wav or .mp3, for instance: 01tet.wav or 02ply.mp3. The files have to be stored
-- in the top-level directory of the SD drive or folders with names of three-digital such as 001 or 002 etc.
+  format of file order+ three characters.wav or .mp3, for instance: 01tet.wav or 02ply.mp3. The files have to be stored
+ in the top-level directory of the SD drive or folders with names of three-digital such as 001 or 002 etc.
 
 
 2.   Make sure that the SD card have correct audio file, file name and folder name and then insert the SD card into the SD card slot. 
@@ -57,7 +55,7 @@ For MKR zero:
 
 5.  Launch the arduino IDE. Use the provided USB cable to connect your Arduino board to your computer.
 
-6.  Install the libraries for the Arduino UNO board: Go to the menu: Tools-boards manager-search with keyword 'UNO' and install
+6.  Install the libraries for the Arduino UNO board: Go to the menu: Tools-boards manager-search with keyword 'UNO' and install "Arduino AVR boards"
   <img src="..\images\in-person_workshops\audio_player\mkrinstall.png" alt="mkrinstall" style="float:right;width:1200px;">
   Go to the menu of the IDE and select Tools- boards manager again to select, connect and communicate with the board Auduino UNO.
 <img src="..\images\in-person_workshops\audio_player\boardmanager.png" alt="boardmanager" style="float:right;width:1200px;">
