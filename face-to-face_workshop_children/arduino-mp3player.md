@@ -29,7 +29,7 @@ If you and your group have any questions or get stuck as you work through this i
 
 <img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
     
-- One active(embedded with amplifier) speaker with audio cable connect to the YX5300 module (see below)
+- One active(embedded with amplifier) speaker with audio cable connect to the YX5300 module (see below). The actual print put of the pin might be different(TX and RX are swapped), Just follow the connections for the pin position.
    
 <img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
     
@@ -46,7 +46,7 @@ If you and your group have any questions or get stuck as you work through this i
    
 4.  Connect all the other wires and their placement as can be seen in the diagram below.  
 
-     <img src="..\images\in-person_workshops\audio_player\unomp3playerdiagram.png" alt="audio_player" style="float:right;width:1200px;">
+     <img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
 
 
 
@@ -87,11 +87,11 @@ Select board information window from Tools-Get board info menu, if it shows the 
  When there is no object within 50 cm in front of ultrasonic sensor, the audio player won't play and keep on outputting the distance information in the serial monitor window.
 Put your hands or other objects closer to the ultrsonic sensor (less then 50cm), you will hear the music from the speaker! And the red LED or green LED will be on.
 If your hands or other objects closer to the ultrsonic sensor (less then 20cm), you will hear another music from the speaker, both of the red LED and green LED will be on, and the
-volume from the speakers also change! Have fun!
+volume from the speakers can also change! Have fun!
 
 
-11.  If you want to discover more, you can go back to the code editor of Arduino IDE, modify the variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
+11.  If you want to explore more, you can go back to the code editor of the Arduino IDE, modify the variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
 music from 50 cm to 80 cm to see whether it will actually happen.  Or you can change the music files, change the LEDs light,
-change the volumes etc to fully control the program. Have more fun from it!
+change the volumes etc. or change whatever you want to fully control the program. Have more fun from it!
 
  
