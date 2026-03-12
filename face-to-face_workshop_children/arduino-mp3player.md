@@ -7,13 +7,13 @@ parent: Face-to-Face Workshop Activities
 
 # Arduino MP3 Player
 
-This page is for a Arduino audio player solution with Arduino UNO R3 + low-noise MP3 player. Another solution for audio play with Arduino MKR WiFi 1010 or MKR Zero can be found in audio-player.md
+This page describes an Arduino audio player project using an Arduino UNO R3, a YX5300 MP3 player module, and an active speaker. Another audio play solution using the Arduino MKR WiFi 1010 or MKR Zero can be found in audio-player.md.
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
 1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software) for either Windows or Mac, and then install the software on your computer. Another alternative is to use the cloud IDE. Please refer to this link on how to use the cloud IDE for our workshop: https://github.com/uviclibraries/arduino/blob/audio-player/face-to-face_workshop_children/cloud_IDE.md
 
-    Materials needed:
+    Materials Needed:
  
 - 1 Arduino UNO R3 (see below)
     
@@ -33,16 +33,19 @@ If you and your group have any questions or get stuck as you work through this i
    
 <img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
     
-- One 32GB SD card with FAT file system and stored with some .wav or .mp3 audio files. The file name has to be in the
-  format of: 'file order'+ 'three characters'.wav or .mp3, for instance: 01tet.wav or 02ply.mp3. The files have to be stored
- in the top-level directory of the SD drive or folders with names of three-digital such as 001 or 002 etc.
+- One 32GB SD card with FAT file system and stored with some .wav or .mp3 audio files.
+
+- The file name must follow this format:
+two-digit file number + three characters + file extension, example: 01tet.wav or 02ply.mp3.
+
+The files have to be stored in the top-level directory of the SD drive or folders with three-digit names, such as 001 or 002 etc.
 
 
 2.   Make sure that the SD card have correct audio file, file name and folder name and then insert the SD card into the SD card slot. 
 
-3.  Connect the black wire to the **GND** pin on the Arduino and then the “**-**” pin on the breadboard.
+3.  Connect a black wire from the GND pin on the Arduino to the “-” (ground) rail on the breadboard.
 
-    Connect the red wire to the **5V** pin on the Arduino and then the “**+**” pin on the breadboard.
+    Connect a red wire from the **5V** pin on the Arduino to the “**+**”(power) rail on the breadboard.
    
 4.  Connect all the other wires and their placement as can be seen in the diagram below.  
 
@@ -50,22 +53,23 @@ If you and your group have any questions or get stuck as you work through this i
 
 
 
-***Please notice that the breadboard power has to be connected to 5V (from Arduino MKR board), otherwise, the mp3 player might not work properly) 
+***Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.
 
-5.  Launch the arduino IDE. Use the provided USB cable to connect your Arduino board to your computer. 
-   Open a new scratch by selecting: File-New in the menu. Delete all the lines of codes for the file,
+5.  Launch the Arduino IDE. Use the provided USB cable to connect your Arduino board to your computer. 
+   Open a new sketch by selecting File → New from the menu. Delete all the lines of codes for the file,
 
 <img src="..\images\in-person_workshops\mp3player\newfile.png" alt="boardmanagerUNO" style="float:right;width:1200px;"> copy and paste to replace with this file:  https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c
 
 
 
-7.  Install the libraries for the Arduino UNO board: Go to the menu: Tools-Manager libraries-search with keyword 'UNO' and install "Arduino AVR boards"
+6. Install the Arduino UNO board package: Go to the menu of the Arduino IDE: Tools → Board → Boards Manager-search with keyword 'UNO' and click to install "Arduino AVR boards":
   <img src="..\images\in-person_workshops\mp3player\boardmanagerUNO.png" alt="boardmanagerUNO" style="float:right;width:1200px;">
  
- 8.  Go to the menu of the IDE and select Tools- Board: Arduino UNO -Arduino AVR boards-Arduino UNO, connect and communicate with the board Auduino UNO.
+ 7.  Go to the menu of the Arduino IDE and then select Tools → Board → Arduino AVR Boards → Arduino UNO to enable communication with the board.:
+
 <img src="..\images\in-person_workshops\mp3player\selectUNO.png" alt="boardmanager" style="float:right;width:1200px;">
 
-Select board information window from Tools-Get board info menu, if it shows the information like below, it means that the Arduino UNO board has been connected to the IDE sussessfully:      
+Select board information window from Tools-Get board info menu, if it shows the information like below, it means that the Arduino UNO board has been connected to the Arduino IDE sussessfully:      
 <img src="..\images\in-person_workshops\mp3player\boardinformation.png" alt="boardmanager" style="float:right;width:1200px;">
 
 
@@ -80,17 +84,19 @@ Select board information window from Tools-Get board info menu, if it shows the 
 9. Press the arrow button and upload the codes to the board. Wait for a few seconds.
  <img src="..\images\in-person_workshops\mp3player\codeupload.png" alt="filepath" style="float:right;width:1200px;">
  
-10.  From the serial monitor window, you will the serial monitor window keeps on printing out the system information.
+10.  In the Serial Monitor window, the system will continuously print distance information and system status.
  <img src="..\images\in-person_workshops\mp3player\audioplaying.png" alt="filepath" style="float:right;width:1200px;">
  
 
- When there is no object within 50 cm in front of ultrasonic sensor, the audio player won't play and keep on outputting the distance information in the serial monitor window.
-Put your hands or other objects closer to the ultrsonic sensor (less then 50cm), you will hear the music from the speaker! And the red LED or green LED will be on.
-If your hands or other objects closer to the ultrsonic sensor (less then 20cm), you will hear another music from the speaker, both of the red LED and green LED will be on, and the
+ When there is no object within 50 cm in front of the ultrasonic sensor, the audio player won't play and keep on outputting the distance information in the serial monitor window.
+
+Place your hand or another object closer to the ultrasonic sensor (less than 50 cm), you will hear the music from the speaker! And the red or green LED will be on.
+
+If your hands or other objects closer to the ultrasonic sensor (less than 20cm), you will hear another music from the speaker, both the red and green LEDs will turn on, and the
 volume from the speakers can also change! Have fun!
 
 
-11.  If you want to explore more, you can go back to the code editor of the Arduino IDE, modify the variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
+11.  If you want to explore more, you can go back to the code editor of the Arduino IDE, modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
 music from 50 cm to 80 cm to see whether it will actually happen.  Or you can change the music files, change the LEDs light,
 change the volumes etc. or change whatever you want to fully control the program. Have more fun from it!
 
