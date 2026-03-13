@@ -7,7 +7,7 @@ parent: Face-to-Face Workshop Activities
 
 # Arduino MP3 Player
 
-This page describes an Arduino audio player project using the Arduino [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (software), an Arduino UNO R3 microcontroller board, or "breadboard", a YX5300 MP3 player module, and an active speaker.
+This page describes an Arduino audio player project using the Arduino [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (software), an Arduino UNO R3 microcontroller board, a "[breadboard](https://en.wikipedia.org/wiki/Breadboard)", a YX5300 MP3 player module, and an active speaker.
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -76,9 +76,9 @@ Note that in the In the Serial Monitor window, the system will continuously prin
 
 When there is no object within 50 cm in front of the ultrasonic sensor, the audio player will not play, but will continue outputting the distance information in the Serial Monitor window.
 
-Place your hand or another object closer to the ultrasonic sensor (less than 50 cm) and you should hear music from the speaker! Note that the red or green LED should also activate.
+Place your hand or another object closer to the ultrasonic sensor (less than 50 cm) and you should hear music from the speaker! Note that lights on the breadboard should also activate.
 
-If you place your hand or other objects closer to the ultrasonic sensor (less than 20cm), then you should hear another music file play from the speaker. And, both the red and green LEDs should activate. Note that the volume from the speakers should increase or decrease depending on how close an object is to the sensor. 
+If you place your hand or other objects closer to the ultrasonic sensor (less than 20cm), then you should hear another music file play from the speaker. And, both breadboard lights should activate. **Important:** make sure that your speaker is switched on and that the volume is turned up (click on the "V+" button a few time). Note that you may need to click on the speaker's "M" button to activate the right mode for the speaker—this is a quirk of the speakers we are using and has nothing to do with our Arduino programming! If you see a tiny, blinking red light on the YX5300 MP3 player module, then your music file is currently playing. 
 
 **All done!** 
 
