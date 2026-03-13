@@ -46,7 +46,7 @@ Audio files have to be stored in the top-level directory of the SD drive. You ca
    
 4.  Connect all the other wires and their placement as can be seen in the diagram below. **Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.**
 
-     <img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
+<img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
 
 5. On your computer, launch the Arduino IDE program. Use the provided USB cable to connect your Arduino breadboard to your computer. 
    In the Arduino IDE program, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
