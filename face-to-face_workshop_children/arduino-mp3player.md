@@ -7,7 +7,7 @@ parent: Face-to-Face Workshop Activities
 
 # Arduino MP3 Player
 
-This page describes an Arduino audio player project using an Arduino UNO R3, a YX5300 MP3 player module, and an active speaker. Another audio play solution using the Arduino MKR WiFi 1010 or MKR Zero can be found in audio-player.md.
+This page describes an Arduino audio player project using an Arduino UNO R3 microcontroller board, or "breadboard", a YX5300 MP3 player module, and an active speaker.
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
@@ -15,33 +15,30 @@ If you and your group have any questions or get stuck as you work through this i
 
     Materials Needed:
  
-- 1 Arduino UNO R3 (see below)
+- Arduino UNO R3 breadboard (see below).
     
      <img src="..\images\in-person_workshops\mp3player\arduino_r3.png" alt="arduino_r3" style="float:right;width:320px;">
 
 
-- MP3 player with SD card shield slot and 3.5mm Jack audio connector that is the YX5300 MP3 player board (see below)
+- MP3 player with SD card shield slot and 3.5mm audio jack connector, which is already part of the YX5300 MP3 player board (see below).
 
    <img src="..\images\in-person_workshops\mp3player\yx5300.png" alt="arduino_r3" style="float:right;width:320px;">
-
    
-- HC-SR04 Ultrasonic sensor (see below)
+- HC-SR04 Ultrasonic distance sensor (see below)
 
 <img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
     
-- One active(embedded with amplifier) speaker with audio cable connect to the YX5300 module (see below). The actual print put of the pin might be different(TX and RX are swapped), Just follow the connections for the pin position.
+- One active (embedded with amplifier) speaker with audio cable connected to the YX5300 module (see below). The actual print output of the pin might be different (TX and RX are swapped). Follow the connections for the pin position.
    
 <img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
     
-- One 32GB SD card with FAT file system and stored with some .wav or .mp3 audio files.
+- An SD card that has at least one audio file (.wav or .mp3 format) saved to it. Note that the file storage type must be [FAT](https://en.wikipedia.org/wiki/File_Allocation_Table).
 
-- The file name must follow this format:
-two-digit file number + three characters + file extension, example: 01tet.wav or 02ply.mp3.
+- Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 01tet.wav or 02ply.mp3.
 
-The files have to be stored in the top-level directory of the SD drive or folders with three-digit names, such as 001 or 002 etc.
+Audio files have to be stored in the top-level directory of the SD drive. You can use folders or folders with three-digit names, such as 001, 002, 003, etc.
 
-
-2.   Make sure that the SD card have correct audio file, file name and folder name and then insert the SD card into the SD card slot. 
+2.   Make sure that the SD card has correct audio file type, file name, and folder name before you insert the SD card into the SD card slot. 
 
 3.  Connect a black wire from the GND pin on the Arduino to the “-” (ground) rail on the breadboard.
 
@@ -51,49 +48,57 @@ The files have to be stored in the top-level directory of the SD drive or folder
 
      <img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
 
+**Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.**
 
+5. On your computer, launch the Arduino IDE program. Use the provided USB cable to connect your Arduino breadboard to your computer. 
+   In the Arduino IDE program, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
 
-***Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.
+<img src="..\images\in-person_workshops\mp3player\newfile.png" alt="boardmanagerUNO" style="float:right;width:1200px;"> 
 
-5.  Launch the Arduino IDE. Use the provided USB cable to connect your Arduino board to your computer. 
-   Open a new sketch by selecting File → New from the menu. Delete all the lines of codes for the file,
+6. On your computer, open a web browser and go to [https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c
+](https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c). Copy/paste the code on that page into your newly created file. 
 
-<img src="..\images\in-person_workshops\mp3player\newfile.png" alt="boardmanagerUNO" style="float:right;width:1200px;"> copy and paste to replace with this file:  https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c
+7. Now, we need to install the Arduino UNO board package. In Arduino, go to the menu and select Tools → Board → Boards Manager. In the search bar of the Boards Manager window, search for "UNO." Click on the "Arduino AVR boards" package to install it.
 
-
-
-6. Install the Arduino UNO board package: Go to the menu of the Arduino IDE: Tools → Board → Boards Manager-search with keyword 'UNO' and click to install "Arduino AVR boards":
-  <img src="..\images\in-person_workshops\mp3player\boardmanagerUNO.png" alt="boardmanagerUNO" style="float:right;width:1200px;">
+<img src="..\images\in-person_workshops\mp3player\boardmanagerUNO.png" alt="boardmanagerUNO" style="float:right;width:1200px;">
  
- 7.  Go to the menu of the Arduino IDE and then select Tools → Board → Arduino AVR Boards → Arduino UNO to enable communication with the board.:
+ 8.  In Arduino, go to the menu and select Tools → Board → Arduino AVR Boards → Arduino UNO to enable communication with the breadboard.
 
 <img src="..\images\in-person_workshops\mp3player\selectUNO.png" alt="boardmanager" style="float:right;width:1200px;">
 
-Select board information window from Tools-Get board info menu, if it shows the information like below, it means that the Arduino UNO board has been connected to the Arduino IDE sussessfully:      
+Select the breadboard information window from Tools → Get Board Info menu. If your menu shows the same information depcited below, then your Arduino UNO breadboard has connected successfully to the Arduino file editor. 
+
 <img src="..\images\in-person_workshops\mp3player\boardinformation.png" alt="boardmanager" style="float:right;width:1200px;">
 
+9. Select the Com port for the board from the Tools menu. Note that the default value of port number might be different than shown below.
 
-8. Select the Com port for the board from the Tools menu. The value of port number might be different for your board.
  <img src="..\images\in-person_workshops\mp3player\selectCom.png" alt="selectCom" style="float:right;width:1200px;">
 
- Also open the serial monitor window from the Tools menu: Tools-Serial monitor.
+Next, open the Serial Monitor window from the Tools menu by selecting Tools → Serial Monitor.
 
 <img src="..\images\in-person_workshops\mp3player\serialmonitor.png" alt="serialmonitor" style="float:right;width:1200px;">
-    
 
-9. Press the arrow button and upload the codes to the board. Wait for a few seconds.
- <img src="..\images\in-person_workshops\mp3player\codeupload.png" alt="filepath" style="float:right;width:1200px;">
+10. Click on the arrow button and upload the codes to the breadboard. Note that your code may take a few seconds to upload.
+
+<img src="..\images\in-person_workshops\mp3player\codeupload.png" alt="filepath" style="float:right;width:1200px;">
  
-10.  In the Serial Monitor window, the system will continuously print distance information and system status.
- <img src="..\images\in-person_workshops\mp3player\audioplaying.png" alt="filepath" style="float:right;width:1200px;">
- 
+Now it is time to test if things are working! 
 
- When there is no object within 50 cm in front of the ultrasonic sensor, the audio player won't play and keep on outputting the distance information in the serial monitor window.
+Note that in the In the Serial Monitor window, the system will continuously print distance information and system status.
 
-Place your hand or another object closer to the ultrasonic sensor (less than 50 cm), you will hear the music from the speaker! And the red or green LED will be on.
+<img src="..\images\in-person_workshops\mp3player\audioplaying.png" alt="filepath" style="float:right;width:1200px;">
 
-If your hands or other objects closer to the ultrasonic sensor (less than 20cm), you will hear another music from the speaker, both the red and green LEDs will turn on, and the
-volume from the speakers can also change! Have fun!
+When there is no object within 50 cm in front of the ultrasonic sensor, the audio player will not play, but will continue outputting the distance information in the Serial Monitor window.
+
+Place your hand or another object closer to the ultrasonic sensor (less than 50 cm) and you hear music from the speaker! Note that the red or green LED should also activate.
+
+If you place your hand or other objects closer to the ultrasonic sensor (less than 20cm), then you should hear anoother music file play from the speaker. And, both the red and green LEDs should activate. Note that the volume from the speakers should increase or decrease depending on how close an object is to the sensor. 
+
+**All done!** 
+
+If something is not working for you, please remember to ask your instructor for help. 
+
+Finally, we have another Arduino audio player workshop, using the Arduino MKR WiFi 1010 or MKR Zero. See [https://uviclibraries.github.io/arduino/face-to-face_workshop_children/audio-player.html](Audio Player) for more.
 
 
 11.  If you want to explore more, you can go back to the code editor of the Arduino IDE, modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
