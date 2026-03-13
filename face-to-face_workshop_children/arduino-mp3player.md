@@ -7,11 +7,11 @@ parent: Face-to-Face Workshop Activities
 
 # Arduino MP3 Player
 
-This page describes an Arduino audio player project using an Arduino UNO R3 microcontroller board, or "breadboard", a YX5300 MP3 player module, and an active speaker.
+This page describes an Arduino audio player project using the Arduino [IDE](https://en.wikipedia.org/wiki/Integrated_development_environment) (software), an Arduino UNO R3 microcontroller board, or "breadboard", a YX5300 MP3 player module, and an active speaker.
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software) for either Windows or Mac, and then install the software on your computer. Another alternative is to use the cloud IDE. Please refer to this link on how to use the cloud IDE for our workshop: https://github.com/uviclibraries/arduino/blob/audio-player/face-to-face_workshop_children/cloud_IDE.md
+If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software) for either Windows or Mac, and then install the software on your computer. If you do not want to, or are unable to, install the Arduino IDE software, you can use Arduino's cloud IDE. See our [Arduino cloud editor page](https://uviclibraries.github.io/arduino/face-to-face_workshop_children/cloud_IDE.html) for instructions on how to access Arduino's cloud IDE. 
 
 ## Materials needed
  
@@ -38,21 +38,21 @@ If you haven’t already, please go to the Arduino website and [download the "Ar
 Audio files have to be stored in the top-level directory of the SD drive. You can use folders or folders with three-digit names, such as 001, 002, 003, etc.
 
 2. Make sure that the SD card has correct audio file type, file name, and folder name before you insert the SD card into the SD card slot. 
-3. Connect a black wire from the GND pin on the Arduino to the “-” (ground) rail on the breadboard.
-   Connect a red wire from the **5V** pin on the Arduino to the “**+**”(power) rail on the breadboard.
+3. Connect a black wire from the GND pin on the Arduino breadboard to the “-” (ground) rail on the breadboard.
+   Connect a red wire from the **5V** pin on the Arduino breadboard to the “**+**”(power) rail on the breadboard.
 4. Connect all the other wires and their placement as can be seen in the diagram below. Important: the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.
    ![Arduino with ultrasonic seinsor mp3 board, led lights and powered speaker](../images/in-person_workshops/mp3player/unomp3playerdiagram2.png)
-6. On your computer, launch the Arduino IDE program. Use the provided USB cable to connect your Arduino breadboard to your computer. 
-   In the Arduino IDE program, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
+6. On your computer, launch the Arduino IDE software. Use the provided USB cable to connect your Arduino breadboard to your computer. 
+   In the Arduino IDE software, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
 <img src="..\images\in-person_workshops\mp3player\newfile.png" alt="boardmanagerUNO" style="float:right;width:1200px;"> 
 7. On your computer, open a web browser and go to [https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c
 ](https://github.com/uviclibraries/arduino/blob/audio-player/code/audioplayer.c). Copy/paste the code on that page into your newly created file. 
-8. Now, we need to install the Arduino UNO board package. In Arduino, go to the menu and select Tools → Board → Boards Manager. In the search bar of the Boards Manager window, search for "UNO." Click on the "Arduino AVR boards" package to install it.
+8. Now, we need to install the Arduino UNO board package. In the Arduino IDE software, go to the menu and select Tools → Board → Boards Manager. In the search bar of the Boards Manager window, search for "UNO." Click on the "Arduino AVR boards" package to install it.
 <img src="..\images\in-person_workshops\mp3player\boardmanagerUNO.png" alt="boardmanagerUNO" style="float:right;width:1200px;">
-9.  In Arduino, go to the menu and select Tools → Board → Arduino AVR Boards → Arduino UNO to enable communication with the breadboard.
+9.  In In the Arduino IDE software, go to the menu and select Tools → Board → Arduino AVR Boards → Arduino UNO to enable communication with the breadboard.
 <img src="..\images\in-person_workshops\mp3player\selectUNO.png" alt="boardmanager" style="float:right;width:1200px;">
 
-Select the breadboard information window from Tools → Get Board Info menu. If your menu shows the same information depcited below, then your Arduino UNO breadboard has connected successfully to the Arduino file editor. 
+Select the breadboard information window from Tools → Get Board Info menu. If your menu shows the same information depcited below, then your Arduino UNO breadboard has connected successfully to the Arduino IDE software file editor. 
 
 <img src="..\images\in-person_workshops\mp3player\boardinformation.png" alt="boardmanager" style="float:right;width:1200px;">
 
