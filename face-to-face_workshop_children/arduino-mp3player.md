@@ -28,7 +28,7 @@ If you haven’t already, please go to the Arduino website and [download the "Ar
 <img src="..\images\in-person_workshops\audio_player\hc-sr04.png" alt="hc-sr04" style="float:right;width:320px;">
     
 - One active (embedded with amplifier) speaker with audio cable connected to the YX5300 module (see below). The actual print output of the pin might be different (TX and RX are swapped). Follow the connections for the pin position.
-   
+
 <img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
     
 - An SD card that has at least one audio file (.wav or .mp3 format) saved to it. Note that the file storage type must be [FAT](https://en.wikipedia.org/wiki/File_Allocation_Table).
@@ -43,7 +43,7 @@ Audio files have to be stored in the top-level directory of the SD drive. You ca
 
     Connect a red wire from the **5V** pin on the Arduino to the “**+**”(power) rail on the breadboard.
    
-4.  Connect all the other wires and their placement as can be seen in the diagram below. **Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.**
+4.  Connect all the other wires and their placement as can be seen in the diagram below. **Important:** the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.
 
 <img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
 
