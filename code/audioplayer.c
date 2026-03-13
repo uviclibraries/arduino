@@ -148,7 +148,7 @@ void playControl(uint8_t vol,uint8_t playflag){
   
   case 2:
       mp3.write(playSecond, sizeof(playSecond)); // pause
-      Serial.println("Playing second song for 30 seconds...");
+      Serial.println("Playing second song for 10 seconds...");
       mp3.write(volumSet15, sizeof(volumSet15)); // Set volume to 15
       delay(500); // play for 0.5 seconds
       delay(10000); // Give the module time to repsonse and pause for 1 seconds
@@ -157,7 +157,7 @@ void playControl(uint8_t vol,uint8_t playflag){
 
   case 3:
       mp3.write(playSecond, sizeof(playSecond)); // pause
-      Serial.println("Playing second song for 30 seconds...");
+      Serial.println("Playing second song for 10 seconds...");
       mp3.write(volumSet10, sizeof(volumSet10)); // Set volume to 10
       delay(500); // play for 0.5 seconds
       delay(10000); // Give the module time to repsonse and pause for 1 seconds
@@ -196,12 +196,6 @@ void loop() {
     digitalWrite(redLedPin, LOW);    // turn the LED off by making the voltage LOW
     playControl(0,0);// not to play mp3 if distance> 50cm
   }
-  else if(distanceMeasured>30){
-    digitalWrite(greenLedPin, LOW);   // turn the LED OFF (LOW is the voltage level)
-    digitalWrite(redLedPin, HIGH);    // turn the LED ON by making the voltage HIGH
-     playControl(60,1);// play mp3 with volume 60 if distance < 50cm and >20cm
-  }
-
  else if(distanceMeasured>20){
     digitalWrite(greenLedPin, HIGH);   // turn the LED ON (HIGH is the voltage level)
     digitalWrite(redLedPin, LOW);    // turn the LED LOW by making the voltage LOW
@@ -214,13 +208,3 @@ void loop() {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
