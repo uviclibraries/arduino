@@ -94,13 +94,12 @@ If you place your hand or other objects closer to the ultrasonic sensor (less th
 
 **All done!** 
 
+## Next steps
+If you want to do more tweaking, you can go back to the Arduino code editor and modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For ewxample, you could change the sensor's distance threshold from 50 cm to 80 cm. Or, you could add or change the music files, change the LEDs lights, or change the speaker volume, and more.  etc. or change 
+
 If something is not working for you, please remember to ask your instructor for help. 
 
 Finally, we have another Arduino audio player workshop, using the Arduino MKR WiFi 1010 or MKR Zero. See [https://uviclibraries.github.io/arduino/face-to-face_workshop_children/audio-player.html](Audio Player) for more.
 
-
-11.  If you want to explore more, you can go back to the code editor of the Arduino IDE, modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For instance, change the distance threshold of starting playing
-music from 50 cm to 80 cm to see whether it will actually happen.  Or you can change the music files, change the LEDs light,
-change the volumes etc. or change whatever you want to fully control the program. Have more fun from it!
 
  
