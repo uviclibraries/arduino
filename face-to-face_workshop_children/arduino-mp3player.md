@@ -17,12 +17,11 @@ If you haven’t already, please go to the Arduino website and [download the "Ar
  
 - Arduino UNO R3 breadboard (see below).
     
-     <img src="..\images\in-person_workshops\mp3player\arduino_r3.png" alt="arduino_r3" style="float:right;width:320px;">
-
+<img src="..\images\in-person_workshops\mp3player\arduino_r3.png" alt="arduino_r3" style="float:right;width:320px;">
 
 - MP3 player with SD card shield slot and 3.5mm audio jack connector, which is already part of the YX5300 MP3 player board (see below).
 
-   <img src="..\images\in-person_workshops\mp3player\yx5300.png" alt="arduino_r3" style="float:right;width:320px;">
+<img src="..\images\in-person_workshops\mp3player\yx5300.png" alt="arduino_r3" style="float:right;width:320px;">
    
 - HC-SR04 Ultrasonic distance sensor (see below)
 
@@ -70,7 +69,7 @@ Select the breadboard information window from Tools → Get Board Info menu. If 
 
 9. Select the Com port for the board from the Tools menu. Note that the default value of port number might be different than shown below.
 
- <img src="..\images\in-person_workshops\mp3player\selectCom.png" alt="selectCom" style="float:right;width:1200px;">
+<img src="..\images\in-person_workshops\mp3player\selectCom.png" alt="selectCom" style="float:right;width:1200px;">
 
 Next, open the Serial Monitor window from the Tools menu by selecting Tools → Serial Monitor.
 
@@ -95,7 +94,7 @@ If you place your hand or other objects closer to the ultrasonic sensor (less th
 **All done!** 
 
 ## Next steps
-If you want to do more tweaking, you can go back to the Arduino code editor and modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For ewxample, you could change the sensor's distance threshold from 50 cm to 80 cm. Or, you could add or change the music files, change the LEDs lights, or change the speaker volume, and more.  etc. or change 
+If you want to do more tweaking, you can go back to the Arduino code editor and modify the parameters or variables in the code, recompile, and upload your updated code to the Arduino board to see the results. For example, you could change the sensor's distance threshold from 50 cm to 80 cm. Or, you could add or change the music files, change the LEDs lights, or change the speaker volume, and more.  etc. or change 
 
 If something is not working for you, please remember to ask your instructor for help. 
 
