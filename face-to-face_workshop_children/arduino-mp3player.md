@@ -11,9 +11,9 @@ This page describes an Arduino audio player project using an Arduino UNO R3 micr
 
 If you and your group have any questions or get stuck as you work through this in-class exercise, please ask the instructor for assistance.  Have fun!
 
-1.  If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software) for either Windows or Mac, and then install the software on your computer. Another alternative is to use the cloud IDE. Please refer to this link on how to use the cloud IDE for our workshop: https://github.com/uviclibraries/arduino/blob/audio-player/face-to-face_workshop_children/cloud_IDE.md
+If you haven’t already, please go to the Arduino website and [download the "Arduino IDE"](https://www.arduino.cc/en/Main/Software) for either Windows or Mac, and then install the software on your computer. Another alternative is to use the cloud IDE. Please refer to this link on how to use the cloud IDE for our workshop: https://github.com/uviclibraries/arduino/blob/audio-player/face-to-face_workshop_children/cloud_IDE.md
 
-    Materials Needed:
+## Materials needed
  
 - Arduino UNO R3 breadboard (see below).
     
@@ -44,11 +44,9 @@ Audio files have to be stored in the top-level directory of the SD drive. You ca
 
     Connect a red wire from the **5V** pin on the Arduino to the “**+**”(power) rail on the breadboard.
    
-4.  Connect all the other wires and their placement as can be seen in the diagram below.  
+4.  Connect all the other wires and their placement as can be seen in the diagram below. **Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.**
 
      <img src="..\images\in-person_workshops\mp3player\unomp3playerdiagram2.png" alt="audio_player" style="float:right;width:1200px;">
-
-**Please note that the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.**
 
 5. On your computer, launch the Arduino IDE program. Use the provided USB cable to connect your Arduino breadboard to your computer. 
    In the Arduino IDE program, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
@@ -90,9 +88,9 @@ Note that in the In the Serial Monitor window, the system will continuously prin
 
 When there is no object within 50 cm in front of the ultrasonic sensor, the audio player will not play, but will continue outputting the distance information in the Serial Monitor window.
 
-Place your hand or another object closer to the ultrasonic sensor (less than 50 cm) and you hear music from the speaker! Note that the red or green LED should also activate.
+Place your hand or another object closer to the ultrasonic sensor (less than 50 cm) and you should hear music from the speaker! Note that the red or green LED should also activate.
 
-If you place your hand or other objects closer to the ultrasonic sensor (less than 20cm), then you should hear anoother music file play from the speaker. And, both the red and green LEDs should activate. Note that the volume from the speakers should increase or decrease depending on how close an object is to the sensor. 
+If you place your hand or other objects closer to the ultrasonic sensor (less than 20cm), then you should hear another music file play from the speaker. And, both the red and green LEDs should activate. Note that the volume from the speakers should increase or decrease depending on how close an object is to the sensor. 
 
 **All done!** 
 
