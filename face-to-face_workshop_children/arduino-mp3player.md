@@ -41,7 +41,7 @@ Audio files have to be stored in the top-level directory of the SD drive. You ca
 3. Connect a black wire from the GND pin on the Arduino breadboard to the “-” (ground) rail on the breadboard.
    Connect a red wire from the **5V** pin on the Arduino breadboard to the “**+**”(power) rail on the breadboard.
 4. Connect all the other wires and their placement as can be seen in the diagram below. Important: the breadboard power rail must be connected to the 5V pin of the Arduino UNO, otherwise, the MP3 player module may not work properly.
-   ![Arduino with ultrasonic seinsor mp3 board, led lights and powered speaker](../images/in-person_workshops/mp3player/unomp3playerdiagram2.png)
+   ![Arduino with ultrasonic seinsor mp3 board, led lights and powered speaker](../images/in-person_workshops/mp3player/unomp3playerdiagram3.png)
 6. On your computer, launch the Arduino IDE software. Use the provided USB cable to connect your Arduino breadboard to your computer. 
    In the Arduino IDE software, open a new "sketch", or file, by selecting File → New from the menu. Next, delete all the lines of code in your newly created file. We are going to replace that code... 
 <img src="..\images\in-person_workshops\mp3player\newfile.png" alt="boardmanagerUNO" style="float:right;width:1200px;"> 
