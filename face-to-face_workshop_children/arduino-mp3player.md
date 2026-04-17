@@ -30,7 +30,11 @@ If you haven’t already, please go to the Arduino website and [download the "Ar
 - One active (embedded with amplifier) speaker with audio cable connected to the YX5300 module (see below). The actual print output of the pin might be different (TX and RX are swapped). Follow the connections for the pin position.
 
 <img src="..\images\in-person_workshops\mp3player\sharkspeaker.png" alt="speaker" style="float:right;width:220px;">    
-    
+
+- Two LED lights: One is red and the other is green (or any colours of your choice). Pay close attention to the lead lengths: the long lead is the positive polarity (anode) and must connect to the positive side of the circuit. The short lead is the negative polarity (cathode) and must connect to the negative side. For the correct connection, please refer to the diagram in item 4 shown below and confirm with us if you are not sure about this.
+
+- Two resistors: Use values ranging from 220 Ω to 10 kΩ. Note that the larger the resistance, the less current flows through the LED, resulting in a dimmer light. Resistors do not have polarity, so you can connect them in either direction.
+
 - An SD card that has at least one audio file (.wav or .mp3 format) saved to it. Note that the file storage type must be [FAT](https://en.wikipedia.org/wiki/File_Allocation_Table).
 
 - Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 01tet.wav or 02ply.mp3.
