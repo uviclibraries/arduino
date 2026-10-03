@@ -36,6 +36,8 @@ If you and your group have any questions or get stuck as you work through this i
 
  paste the codes from link below:
  https://drive.google.com/file/d/1MjVNvSdijq45YQKWWXrXKRewwlCtaCjq/view?usp=sharing
+ or
+ https://github.com/uviclibraries/arduino/blob/main/code/distancemeasurement.c
 
  and select the arduino uno as in the boards management menue:
  
