@@ -30,6 +30,11 @@ This workshop is primarily hands-on work with hardware and software. To particip
 
 - Now you're ready to advance to either the Virtual Workshop Activities or the Face-to-Face Workshop Activities depending on whether or not you are working through this workshop on your own (Virtual Activities) or in the library (Face-to-Face Activities):
 
-[VIRTUAL WORKSHOP ACTIVITIES](workshop_activities_virtual.html){: .btn .btn-blue }
+[INTRODUCTION FOR SELF-DIRECTED LEARNERS(activities_intro.html){: .btn .btn-blue }
+
+**-OR-**
 
 [FACE-TO-FACE WORKSHOP ACTIVITIES](workshop_activities_face-to-face.html){: .btn .btn-blue }
+
+[VIRTUAL WORKSHOP ACTIVITIES](workshop_activities_virtual.html){: .btn .btn-blue }
+
