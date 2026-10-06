@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Face-to-Face Workshop Activities
+title: Workshop Activities Face-to-Face
 nav_order: 7
 has_children: true
 has_toc: true
