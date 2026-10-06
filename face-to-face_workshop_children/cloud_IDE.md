@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arduino cloud editor
-nav_order: 10
+nav_order: 20
 parent: Face-to-Face Workshop Activities
 ---
 
