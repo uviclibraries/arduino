@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Activities Introduction
+title: Self-Directed Introduction
 nav_order: 1
 parent: Virtual Workshop Activities
 ---
 
-# Activities Introduction
+# Introduction for Self-Directed Learners
 
 Please review the following links:
 
