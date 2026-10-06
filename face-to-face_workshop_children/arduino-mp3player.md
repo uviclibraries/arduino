@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arduino MP3 Player
-nav_order: 2
+nav_order: 10
 parent: Face-to-Face Workshop Activities
 ---
 
