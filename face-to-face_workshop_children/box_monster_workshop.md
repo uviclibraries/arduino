@@ -124,8 +124,8 @@ The following projects use the same basic Arduino circuit and components as the 
 
 Turn your Box Monster into a surprise decoration! When the box is closed, the lid covers the photoresistor. When someone opens the box, the sensor detects the light and the monster's eyes respond.
 
-<img src="..\images\in-person_workshops\spooky/image16.jpg" />
-<img src="..\images\in-person_workshops\spooky/image18.jpg" />
+<img src="..\images\in-person_workshops\spooky/Peek-a-Boo.jpg" />
+<img src="..\images\in-person_workshops\spooky/Peek-a-Boo2.jpg" />
 
 ### What you need
 
@@ -148,8 +148,8 @@ Turn your Box Monster into a surprise decoration! When the box is closed, the li
 
 Use the same LEDs and photoresistor circuit to create a glowing Halloween decoration without using a box. Make a cluster of glowing eyeballs, a spiderweb scene, or a spooky mini display.
 
-<img src="..\images\in-person_workshops\spooky/image2.png" />
-<img src="..\images\in-person_workshops\spooky/image16.jpg" />
+<img src="..\images\in-person_workshops\spooky/spider_web1.jpg" />
+<img src="..\images\in-person_workshops\spooky/haunting_eyes.jpg" />
 
 ### What you need
 
