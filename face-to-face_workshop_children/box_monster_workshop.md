@@ -38,7 +38,7 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 2.  Launch the Arduino IDE.
 
-3.  Open the sketch at [the original sketch](https://github.com/uviclibraries/arduino/blob/federerlee-spookyworkshop/code/spooky.c) and copy its code into a new Arduino sketch.
+3.  Open the sketch at [the monsterbox1 sketch](../code/monsterbox1.c) and copy its code into a new Arduino sketch.
 
 4.  In the Arduino IDE, select **Arduino Uno** as the board. In IDE 2, use the board selector; in older versions, use Tools → Board.
 
@@ -48,17 +48,20 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 5.  Click **Upload** (the right-arrow icon in the toolbar).
 
-<img src="..\images\in-person_workshops\spooky/image5.gif" />
+<img src="..\images\in-person_workshops\spooky/image5_new.png" />
 
 6.  Check that the LEDs are on. Cover the photoresistor with your finger; the LEDs should turn off. They should turn on again when you uncover the sensor.
 
 7.  Open the Serial Monitor. You should see readings from 0 to 1023. These values represent the light level detected by the sensor. The reading should decrease as you cover the photoresistor and may reach 0 when it is fully covered.
 
-<img src="..\images\in-person_workshops\spooky/image3.png" /><img src="..\images\in-person_workshops\spooky/image21.png" />
+<img src="..\images\in-person_workshops\spooky/image3_new.png" />
 
-8.  Now make the ping-pong-ball eyes. Ask the instructor to prepare an X-shaped opening in each ball. If the ball has a pupil, point it upward; otherwise, draw one with a black marker. Remove the LEDs, insert one into each ball, and return the LED legs to their original breadboard positions.
+8.  Now we will insert the LEDs into your ping pong ball “eyes.” Cut some slits in the ping pong balls with the craft knife. Cut an X into the side of the ping pong ball (with the pupil facing up; if there’s no pupil, you can draw one with a black sharpie). Take out the LEDs and insert each one into a ping pong ball. Stick the LED legs back into the breadboard in their original position.
 
-9.  Remove the photoresistor from the breadboard. Position it so that the box lid covers it when the box is closed. Ask the instructor to prepare two small openings in the box beneath the lid’s edge, then pass the photoresistor legs through them. Connect each leg to a jumper wire using an alligator clip, then plug the jumper wires into the breadboard holes where the photoresistor legs were connected.
+<img src="..\images\in-person_workshops\spooky/image21.png" />
+
+9.  Take the photoresistor out of the breadboard. We want to detect when the box is open so we want to place it somewhere it will be covered when the box is closed. Cut two slits into the box under the lip of the lid and stick the photoresistor legs through each slit. Using two alligator clips,clip each leg of the photoresistor to a jumper wire. Then plug each end of the jumper wire into the spots where the photoresistor legs used to be.
+
 
 <img src="..\images\in-person_workshops\spooky/image16.jpg" /><img src="..\images\in-person_workshops\spooky/image18.jpg" />
 
@@ -68,7 +71,7 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 > **Optional:** Change the colour of the monster’s eyes by editing the values passed to `setColor()`. For example, `(0, 0, 255)` produces blue in RGB colour notation. Choose an RGB colour and replace the three numbers in `setColor()` with its red, green, and blue values.**
 
-> **Challenge:** Can you make the eyes change colour or cycle through several colours? Try the [colour-cycling example](https://goo.gl/BahchB). Check that the link still works before publishing, and ask the instructor for help if needed.
+> **Challenge:** Can you make the eyes change colour or cycle through several colours? Try the [colour-cycling example code](../code/monsterbox_rgb.c). Check that the link till works before publishing, and ask the instructor for help if needed.
 
 **Now let’s add some sound!**
 
