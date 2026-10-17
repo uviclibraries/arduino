@@ -87,9 +87,15 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 2.  Choose a short sound file for your monster. The original workshop recommends keeping it under 4 seconds because the audio is stored in the Arduino sketch and memory is limited. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
 
-3.  Convert the sound file to the format required by the workshop code. The original instructions use [an online audio converter](https://audio.online-convert.com/convert-to-mp3). Check that the service and its settings are still available before running the workshop.
+3.  Convert the sound file to the format required by the workshop code. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop.
 
-<img src="..\images\in-person_workshops\spooky/image13.png" />
+Settings need to choose to down-sample the audio to 8 KHz, 8-bit mono sound:
+
+<img src="..\images\in-person_workshops\spooky/huantyhouse_onlineconvert.png" />
+
+Alternatively, use: https://g711.org/
+
+<img src="..\images\in-person_workshops\spooky/g711org.png" />
 
 4.  Next, install the PCM library. In the Arduino IDE, open the Library Manager (in older versions: Sketch → Include Library → Manage Libraries) and search for “PCM.”
 
