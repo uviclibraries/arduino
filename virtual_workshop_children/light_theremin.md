@@ -2,7 +2,7 @@
 layout: default
 title: Light Theremin
 nav_order: 4
-parent: Virtual Workshop Activities
+parent: Workshop Activities Virtual
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt=" tinkercad account" style="float:right;width:270px;">
