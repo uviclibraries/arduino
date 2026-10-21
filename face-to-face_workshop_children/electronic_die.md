@@ -2,7 +2,7 @@
 layout: default
 title: Electronic Die
 nav_order: 6
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Electronic Die
