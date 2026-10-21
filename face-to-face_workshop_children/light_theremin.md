@@ -2,7 +2,7 @@
 layout: default
 title: Light Theremin
 nav_order: 7
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Light Theremin
