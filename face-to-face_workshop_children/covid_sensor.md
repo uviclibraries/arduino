@@ -2,7 +2,7 @@
 layout: default
 title: Covid Sensor
 nav_order: 9
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Covid-sensor
