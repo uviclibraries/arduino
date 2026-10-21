@@ -2,7 +2,7 @@
 layout: default
 title: Audio Player
 nav_order: 11
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Audio-player
