@@ -2,7 +2,7 @@
 layout: default
 title: 2 Meter COVID Sensor
 nav_order: 5
-parent: Virtual Workshop Activities
+parent: Workshop Activities Virtual
 ---
 <img src="..\images\virtual_workshops\2M_covid_sensor\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
 
