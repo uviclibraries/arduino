@@ -2,7 +2,7 @@
 layout: default
 title: Love-o-Meter
 nav_order: 3
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Love-o-Meter
