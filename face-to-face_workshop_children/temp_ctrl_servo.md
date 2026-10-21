@@ -2,7 +2,7 @@
 layout: default
 title: Temperature Controlled Servo
 nav_order: 4
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Temperature Controlled Servo
