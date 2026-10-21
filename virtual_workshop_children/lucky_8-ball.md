@@ -2,7 +2,7 @@
 layout: default
 title: Lucky 8-Ball
 nav_order: 6
-parent: Virtual Workshop Activities
+parent: Workshop Activities Virtual
 customjs: http://code.jquery.com/jquery-1.4.2.min.js
 ---
 <img src="..\images\virtual_workshops\hello_world\tinkercad_account.png" alt="tinkercad account" style="float:right;width:270px;">
