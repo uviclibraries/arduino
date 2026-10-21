@@ -2,7 +2,7 @@
 layout: default
 title: Lucky 8-Ball
 nav_order: 5
-parent: Face-to-Face Workshop Activities
+parent: Workshop Activities Face-to-Face
 ---
 
 # Lucky 8-Ball
