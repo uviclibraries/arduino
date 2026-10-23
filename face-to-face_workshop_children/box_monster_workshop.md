@@ -81,7 +81,7 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 <img src="..\images\in-person_workshops\spooky/image17.jpg" />
 
-<img src="..\images\in-person_workshops\spooky/image14.png" />
+<img src="..\images\in-person_workshops\spooky/image14_update.png" />
 
 **Note: The diagram uses a piezo buzzer (the black circle) to represent the speaker. The speaker used in this workshop does not have legs.**
 
