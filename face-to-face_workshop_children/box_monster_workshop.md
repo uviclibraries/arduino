@@ -28,7 +28,9 @@ or use the cloud editor version.
 
 8.  Openings for the ping-pong-ball eyes (prepared by the instructor)
 
-9.  1 8 Ω speaker
+9.  1 speaker (Hamberger mini speaker)
+
+10. 1 speaker (YX5300 MP3 player board)
 
 Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later.
 
@@ -77,49 +79,26 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 ## Add a Spooky Sound
 
-1.  Using the remaining two alligator clips, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
+1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
-<img src="..\images\in-person_workshops\spooky/image17.jpg" />
 
-<img src="..\images\in-person_workshops\spooky/image14_update.png" />
+<img src="..\images\in-person_workshops\spooky/spooky_GRB_speaker.png" />
 
-**Note: The diagram uses a piezo buzzer (the black circle) to represent the speaker. The speaker used in this workshop does not have legs.**
+**Note: The diagram uses a Hamburger mini speaker. You can use other speakers.**
 
 2.  Choose a short sound file for your monster. The original workshop recommends keeping it under 4 seconds because the audio is stored in the Arduino sketch and memory is limited. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
 
-3.  Convert the sound file to the format required by the workshop code. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop.
+3.  Convert the sound file in .mp3 or .wav format. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop.
 
-Settings need to choose to down-sample the audio to 8 KHz, 8-bit mono sound:
+Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 01tet.wav or 02ply.mp3.
 
-<img src="..\images\in-person_workshops\spooky/huantyhouse_onlineconvert.png" />
-
-Alternatively, use: https://g711.org/
-
-<img src="..\images\in-person_workshops\spooky/g711org.png" />
-
-4.  Next, install the PCM library. In the Arduino IDE, open the Library Manager (in older versions: Sketch → Include Library → Manage Libraries) and search for “PCM.”
-
-<img src="..\images\in-person_workshops\spooky/image7.png" />
-
-5.  Find the library listed as “PCM” by David Mellis and Michael Smith, if it is still available. Select it and click **Install**. Library names and availability can change, so verify that the installed version is compatible with the workshop sketch.
-
-<img src="..\images\in-person_workshops\spooky/image15.png" />
+Take the SD card out from the YX5300 board and saved the sound files to it. Note that the file storage type must be FAT.
 
 6.  Open the sketch at [the sound-enabled sketch](https://goo.gl/D2HQNm) and copy its code into the Arduino IDE, replacing the previous sketch code.
 
-7.  Download the EncodeAudio program from [the EncodeAudio program](https://goo.gl/FguCKz). The original program requires Java. Before publishing, verify that this download is still available and safe to use, and document any current installation requirements.
+7. Upload the updated sketch to the Arduino board.
 
-<img src="..\images\in-person_workshops\spooky/image9.png" />
-
-8.  Run EncodeAudio and select the converted audio file. The program should copy the encoded sample data to your clipboard.
-
-9.  Paste the copied sample data between the curly braces in the declaration that begins `const unsigned char sample[] PROGMEM`.
-
-<img src="..\images\in-person_workshops\spooky/image4.png" />
-
-10. Upload the updated sketch to the Arduino board.
-
-11. Decorate your monster and box as you like. Have fun!
+8. Decorate your monster and box as you like. Have fun!
 
 > **You may keep the box. The Arduino, breadboard, and other components may be borrowed for one week from the Music and Media desk on the first floor. Ask the DSC staff for current borrowing details.**
 
