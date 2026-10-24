@@ -30,7 +30,7 @@ or use the cloud editor version.
 
 9.  1 speaker (Hamberger mini speaker)
 
-10. 1 speaker (YX5300 MP3 player board)
+10.  YX5300 MP3 player board
 
 Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later.
 
@@ -100,7 +100,7 @@ Box monster 2 made by participant from previous workshop.
 
 4. Take the SD card out from the YX5300 board and saved the sound files to it. Note that the file storage type must be FAT.
 
-5.  Open the sketch at [the sound-enabled sketch](https://goo.gl/D2HQNm) and copy its code into the Arduino IDE, replacing the previous sketch code. Upload the updated sketch to the Arduino board.
+5.  Open the sketch at [the sound-enabled sketch](../code/monsterbox_rgb_speaker.c) and copy its code into the Arduino IDE, replacing the previous sketch code. Upload the updated sketch to the Arduino board.
 
 6. Decorate your monster and box as you like. Have fun!
 
