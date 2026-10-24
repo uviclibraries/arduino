@@ -90,7 +90,7 @@ Box monster 2 made by participant from previous workshop.
 1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
 
-<img src="..\images\in-person_workshops\spooky/spooky_GRB_speaker.png" />
+<img src="..\images\in-person_workshops\spooky/spookydiagram3_update1_1.png" />
 
 **Note: The diagram uses a Hamburger mini speaker. You can use other speakers.**
 
