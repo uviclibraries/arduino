@@ -12,6 +12,24 @@
   
 */
 
+//For RGB Led
+// Updated to standard Arduino Uno PWM pins (3, 5, 6)
+int redPin = 10;//With a 1k resistor, connted to the second longest lead of the LED, besides the longest
+int greenPin = 9;//With a 1k resistor,connted to third longest lead of the LED, between the longest and shortest
+int bluePin = 8;//With a 1k resistor,connted to shortest lead of the LED,
+//For a common Cathod LED, connect the longest lead is the Cathod LED, connect to a GND of the Arduino board.
+//uncomment this line if using a Common Anode LED
+//#define COMMON_ANODE
+
+
+int redPin2 = 6;//With a 1k resistor, connted to the second longest lead of the LED, besides the longest
+int greenPin2 = 5;//With a 1k resistor,connted to third longest lead of the LED, between the longest and shortest
+int bluePin2 = 4;//With a 1k resistor,connted to shortest lead of the LED,
+//For a common Cathod LED, connect the longest lead is the Cathod LED, connect to a GND of the Arduino board.
+//uncomment this line if using a Common Anode LED
+//#define COMMON_ANODE
+
+
 // variable to hold sensor value
 int sensorValue;
 // variable to calibrate low value
@@ -71,15 +89,7 @@ void mp3initial(void){
   }
 }
 
-void setup() {
-  Serial.begin(9600);
-  // Make the LED pin an output and turn it on
-  pinMode(ledPin1, OUTPUT);
-  pinMode(ledPin2, OUTPUT);
-  //pinMode(pirPin,INPUT);
-  digitalWrite(ledPin1, HIGH);
-  digitalWrite(ledPin2, HIGH);
-}
+
 
 void lightsensing(){
 
@@ -104,7 +114,107 @@ void lightsensing(){
 }
 
 
+//mp3 play control 
+void playControl(uint8_t vol,uint8_t playflag){
 
+    //The volume will change will the speaker output is set at a certain level, otherwise, you could not figure out the changes
+    /*
+  switch(vol){
+  case 10:
+  Serial.println("Set volum 10...");
+  break;
+  mp3.write(volumSet10, sizeof(volumSet10)); // Set volume to 10
+  delay(500); // play for 0.5 seconds
+  break;
+  case 15:
+  Serial.println("Set volum 15...");
+  break;
+  mp3.write(volumSet15, sizeof(volumSet15)); // Set volume to 10
+  delay(500); // play for 0.5 seconds
+  break;
+  case 30:
+  Serial.println("Set volum 30...");
+  mp3.write(volumSet30, sizeof(volumSet30)); // Send play command
+ 
+  delay(500); 
+  break;
+  case 60:
+  Serial.println("Set volum 60...");
+  mp3.write(volumSet60, sizeof(volumSet60)); // Set volume to 10
+   //volumeup(10);//increase volume by 10
+  delay(500); // play for 0.5 seconds
+  break;
+  default:
+  Serial.println("do nothing");
+  break;
+  }
+*/
+
+// The volume settings only effective after writing the playing songs command
+  switch (playflag){
+  case 0:
+      mp3.write(pause, sizeof(pause)); // pause
+      Serial.println("pause playing for 1 second...");
+      delay(1000); // Give the module time to repsonse and pause for 1 seconds
+  break;
+  case 1:
+      //during playing, other commands may disrupte the playing
+      Serial.println("Play first song...");
+      mp3.write(playFirst, sizeof(playFirst)); // Send play command
+      delay(500); // play for 0.5 seconds
+      mp3.write(volumSet60, sizeof(volumSet60)); // Set volume to 60
+     
+      delay(10000); // Play the songs for 10 seconds
+      Serial.println("The first song is playing..."); 
+  break;
+  
+  case 2:
+      mp3.write(playSecond, sizeof(playSecond)); // pause
+      delay(500); // play for 0.5 seconds
+      Serial.println("Playing second song for 10 seconds...");
+      mp3.write(volumSet15, sizeof(volumSet15)); // Set volume to 15
+      delay(500); // play for 0.5 seconds
+      delay(10000); // Give the module time to repsonse and pause for 1 seconds
+      Serial.println("The second song is playing..."); 
+  break;
+
+  case 3:
+      mp3.write(playSecond, sizeof(playSecond)); // pause
+      Serial.println("Playing second song for 10 seconds...");
+      mp3.write(volumSet10, sizeof(volumSet10)); // Set volume to 10
+      delay(500); // play for 0.5 seconds
+      delay(10000); // Give the module time to repsonse and pause for 1 seconds
+      Serial.println("The second song is playing..."); 
+  break;
+  default:
+      mp3.write(stopPlay, sizeof(stopPlay)); // stop
+      Serial.println("Stop playing for 1 second...");
+      delay(1000); // Give the module time to repsonse and pause for 1 seconds
+  break;
+  }
+  
+}
+
+void setup() {
+  Serial.begin(9600);
+  // Make the LED pin an output and turn it on
+  pinMode(ledPin1, OUTPUT);
+  pinMode(ledPin2, OUTPUT);
+  //pinMode(pirPin,INPUT);
+  digitalWrite(ledPin1, HIGH);
+  digitalWrite(ledPin2, HIGH);
+
+  mp3initial();
+ 
+  //for RGB Led
+  pinMode(redPin, OUTPUT);
+  pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);  
+  pinMode(redPin2, OUTPUT);
+  pinMode(greenPin2, OUTPUT);
+  pinMode(bluePin2, OUTPUT);  
+  delay(500); // Give the module time to initialize
+}
 void loop() {
 
    lightsensing();
