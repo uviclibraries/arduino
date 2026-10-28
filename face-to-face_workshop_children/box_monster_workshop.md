@@ -102,7 +102,7 @@ Box monster 2 made by participant from previous workshop.
 
 2.  Choose a sound file for your monster. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
 
-3.  If the files you are going to use are not .mp3 or .wav format, you need to convert the sound file in .mp3 or .wav format. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop. Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 001tet.wav or 002ply.mp3.
+3.  If the files you are going to use are not .mp3 or .wav format, you need to convert the sound file in .mp3 or .wav format. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop. Name for your audio file(s) in the following format: three-digit file number + three characters + file extension—for example: 001tet.wav or 002ply.mp3.
 
 4. Take the SD card out from the YX5300 board and saved the sound files to it. If it is a new SD card, you need to format it. When you format the SD card, notice that the file storage type must be FAT.
 
