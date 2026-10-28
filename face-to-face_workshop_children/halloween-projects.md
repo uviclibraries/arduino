@@ -10,7 +10,7 @@ parent: "Workshop Activities Face-to-Face"
 
 These projects extend the Box Monster workshop with a **servo motor** that moves a lightweight prop, such as a box lid, door, curtain, or sign. You can trigger the movement with a push button, a PIR motion sensor, an HC-SR04 ultrasonic distance sensor, or a combination of these inputs.
 
-> **Workshop note:** Projects 1 and 2 need additional components and a different Arduino sketch from the original Box Monster. Treat the wiring and code as a new build. Test the mechanism before adding decorations, and ask the instructor for help with wiring or code.
+> **Workshop note:** Projects 1 and 2 need additional components and use an updated Arduino sketch from the original Box Monster. Treat the wiring and code as a new build from Box Monster. The code and the wiring instructions can be found here from the link: [monster_box_servo.ino example code](../code/monster_box_servo.ino). Projects 1 and 2 can share the same wiring and code. Download the .ino file, import into Arduino IDE, follow the wiring instructions, then test the mechanism before adding decorations, and ask the instructor for help with wiring or code.
 
 ## Shared design idea: Make the servo part of the character
 
