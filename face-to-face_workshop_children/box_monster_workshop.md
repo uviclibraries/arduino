@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: Halloween Workshop: Make Your Own Box Monster
 nav_order: 12
@@ -38,7 +37,7 @@ or use the cloud editor version.
 
 11.  YX5300 MP3 player board
 
-Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later.
+Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later. For the users who have more experience, they can jump to the next section: Add a Spooky Sound and blink the eyes with changing colors to make it more spooky.
 
 <img src="..\images\in-person_workshops\spooky\image2.png">
 
@@ -87,7 +86,7 @@ Box monster 2 made by participant from previous workshop.
 
 **Now let’s add some sound!**
 
-## Add a Spooky Sound and flash the eyes with changing colors to make it more spooky.
+## Add a Spooky Sound and blink the eyes with changing colors to make it more spooky.
 
 1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
@@ -143,7 +142,7 @@ Turn your Box Monster into a surprise decoration! When the box is closed, the li
 ### Make it your own
 
 1. Decorate the outside of the box to create a monster, haunted creature, or any character you like.
-2. Use the ping-pong balls or eyeball balls as the eyes. If using ping-pong balls, ask the instructor to prepare any openings needed to fit the LEDs.
+2. Use the ping-pong balls or eyeball balls as the eyes.
 3. Position the photoresistor so the closed lid covers it and opening the lid exposes it to light. The detailed wiring steps are in the main Box Monster instructions above.
 4. Upload and test the Box Monster sketch. Open and close the lid to see how the eyes respond.
 5. If time permits, customize the eye colour or blinking behaviour by changing the sketch with help from the instructor.
