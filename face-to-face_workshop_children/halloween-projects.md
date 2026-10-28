@@ -1,7 +1,11 @@
 ---
-layout: page
+layout: default
 title: "Halloween Arduino Projects: Button Monster and Motion-Activated Haunted Display"
+nav_order: 22
+parent: "Workshop Activities Face-to-Face"
+grand_parent: "Workshop Activities Face-to-Face"
 ---
+
 
 # More Halloween Arduino Projects: Trick-or-Treat Button Monster and Motion-Activated Haunted Display
 
