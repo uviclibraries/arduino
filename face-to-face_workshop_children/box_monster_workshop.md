@@ -88,14 +88,14 @@ Box monster 2 made by participant from previous workshop.
 
 1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
-> **Optional:** Want to change colours or flash the LEDs to make the monster’s eyes more scary. You can replace the two LEDs used above with two RGB LEDs connected in a way like below figure. 
+> **Optional:** Want to change colours or flash the LEDs to make the monster’s eyes more scary. You can replace the two LEDs used above with two RGB LEDs connected in a way like below figure.
+
+> **Challenge:** Want to know and test more about the RGB LEDs? Setup the circuits following the instructions and try the code from the link: [colour-cycling example code](../code/monsterbox_rgb.c). Edit the values passed to `setColor()`. For example, `(0, 0, 255)` produces blue in RGB colour notation. Choose an RGB colour and replace the three numbers in `setColor()` with its red, green, and blue values.**
 
 <img src="..\images\in-person_workshops\spooky/spookydiagram3_update1_1.png" />
 
 **Note: The diagram uses a Hamburger mini speaker. You can use other speakers.**
 
-
-> **Challenge:** Want to know and test more about the RGB LEDs? Setup the circuits following the instructions and try the code from the link: [colour-cycling example code](../code/monsterbox_rgb.c). Edit the values passed to `setColor()`. For example, `(0, 0, 255)` produces blue in RGB colour notation. Choose an RGB colour and replace the three numbers in `setColor()` with its red, green, and blue values.**
 
 2.  Choose a sound file for your monster. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
 
