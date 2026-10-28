@@ -1,7 +1,11 @@
 ---
-layout: page
-title: "Halloween Workshop: Make Your Own Box Monster"
+
+layout: default
+title: Halloween Workshop: Make Your Own Box Monster
+nav_order: 12
+parent: Workshop Activities Face-to-Face
 ---
+
 
 # Halloween Workshop: Make Your Own Box Monster
 
@@ -26,7 +30,7 @@ or use the cloud editor version.
 
 7.  2 ping-pong balls
 
-8.  Openings for the ping-pong-ball eyes (prepared by the instructor)
+8.  Openings for the ping-pong-ball eyes
 
 9.  1 Photoresistor(light sensor)
 
