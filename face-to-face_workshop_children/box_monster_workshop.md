@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Halloween Workshop:Make Your Own Box Monster"
-nav_order: 21
+nav_order: 13
 parent: "Workshop Activities Face-to-Face"
 ---
 
