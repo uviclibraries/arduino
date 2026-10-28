@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Halloween Arduino Projects: Button Monster and Motion-Activated Haunted Display"
+title: "More Halloween Arduino Projects: Trick-or-Treat Button Monster and Motion-Activated Haunted Display"
 nav_order: 14
 parent: "Workshop Activities Face-to-Face"
 ---
