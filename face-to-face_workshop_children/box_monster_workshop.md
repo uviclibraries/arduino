@@ -82,7 +82,7 @@ Box monster 2 made by participant from previous workshop.
 11. You did it—congratulations!
 
 
-**Now let’s add some sound!**
+**Now let’s make it more fany!**
 
 ## Add a Spooky Sound and blink the eyes with changing colors to make it more spooky.
 
