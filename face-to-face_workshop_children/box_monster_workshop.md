@@ -83,7 +83,7 @@ Box monster 2 made by participant from previous workshop.
 
 **Now let’s add some sound!**
 
-## Add a Spooky Sound
+## Add a Spooky Sound and flash the eyes with changing colors to make it more spooky.
 
 1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
