@@ -20,17 +20,19 @@ or use the cloud editor version.
 
 4.  6 × 1 kΩ resistors (colour bands: brown, black, red, gold)
 
-5.  7 jumper wires (at least 2 long wires)
+5.  7 jumper wires (at least 2 long wires)(Optional)
 
-6.  4 alligator-clip leads
+6.  4 alligator-clip leads(optional)
 
 7.  2 ping-pong balls
 
 8.  Openings for the ping-pong-ball eyes (prepared by the instructor)
 
-9.  1 speaker (Hamberger mini speaker)
+9.  1 Photoresistor(light sensor)
 
-10.  YX5300 MP3 player board
+10.  1 speaker (Hamberger mini speaker)
+
+11.  YX5300 MP3 player board
 
 Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later.
 
@@ -62,7 +64,7 @@ Connect the components as shown in the diagram below. Leave the speaker disconne
 
 <img src="..\images\in-person_workshops\spooky/image21.png" />
 
-9.  Take the photoresistor out of the breadboard. We want to detect when the box is open so we want to place it somewhere it will be covered when the box is closed. Cut two slits into the box under the lip of the lid and stick the photoresistor legs through each slit. Using two alligator clips,clip each leg of the photoresistor to a jumper wire. Then plug each end of the jumper wire into the spots where the photoresistor legs used to be.
+9.  Take the photoresistor out of the breadboard. We want to detect when the box is open so we want to place it somewhere it will be covered when the box is closed. Cut two slits into the box under the lip of the lid and stick the photoresistor legs through each slit. Using two alligator clips,clip each leg of the photoresistor to a jumper wire. Then plug each end of the jumper wire into the spots where the photoresistor legs used to be. The purpose of this step is to make the wires longer for the photoresistor so that you can hide the photoresistor where ever you want according to your decoration idea. It is an optional step.
 
 
 <img src="..\images\in-person_workshops\spooky/image16.jpg" /><img src="..\images\in-person_workshops\spooky/image18.jpg" />
@@ -76,12 +78,8 @@ Box monster 2 made by participant from previous workshop.
 <img src="..\images\in-person_workshops\spooky/workshop2017_2.jpg">
 
 
-
 11. You did it—congratulations!
 
-> **Optional:** Change the colour of the monster’s eyes by editing the values passed to `setColor()`. For example, `(0, 0, 255)` produces blue in RGB colour notation. Choose an RGB colour and replace the three numbers in `setColor()` with its red, green, and blue values.**
-
-> **Challenge:** Can you make the eyes change colour or cycle through several colours? Try the [colour-cycling example code](../code/monsterbox_rgb.c). Check that the link till works before publishing, and ask the instructor for help if needed.
 
 **Now let’s add some sound!**
 
@@ -89,16 +87,20 @@ Box monster 2 made by participant from previous workshop.
 
 1.  Connect the YX5300 MP3 player, connect the speaker’s red wire to Arduino pin 11 and its black wire to GND (ground).
 
+> **Optional:** Want to change colours or flash the LEDs to make the monster’s eyes more scary. You can replace the two LEDs used above with two RGB LEDs connected in a way like below figure. 
 
 <img src="..\images\in-person_workshops\spooky/spookydiagram3_update1_1.png" />
 
 **Note: The diagram uses a Hamburger mini speaker. You can use other speakers.**
 
-2.  Choose a short sound file for your monster. The original workshop recommends keeping it under 4 seconds because the audio is stored in the Arduino sketch and memory is limited. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
 
-3.  Convert the sound file in .mp3 or .wav format. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop. Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 01tet.wav or 02ply.mp3.
+> **Challenge:** Want to know and test more about the RGB LEDs? Setup the circuits following the instructions and try the code from the link: [colour-cycling example code](../code/monsterbox_rgb.c). Edit the values passed to `setColor()`. For example, `(0, 0, 255)` produces blue in RGB colour notation. Choose an RGB colour and replace the three numbers in `setColor()` with its red, green, and blue values.**
 
-4. Take the SD card out from the YX5300 board and saved the sound files to it. Note that the file storage type must be FAT.
+2.  Choose a sound file for your monster. Confirm that you have permission to use the sound before including it in a public project. You can explore [Freesound Effects](https://www.freesoundeffects.com/).
+
+3.  If the files you are going to use are not .mp3 or .wav format, you need to convert the sound file in .mp3 or .wav format. For wav file, we can use [online-converter.com](https://audio.online-convert.com/convert-to-wav). Check that the service and its settings are still available before running the workshop. Name for your audio file(s) in the following format: two-digit file number + three characters + file extension—for example: 01tet.wav or 02ply.mp3.
+
+4. Take the SD card out from the YX5300 board and saved the sound files to it. If it is a new SD card, you need to format it. When you format the SD card, notice that the file storage type must be FAT.
 
 5.  Open the sketch at [the sound-enabled sketch](../code/monsterbox_rgb_speaker.c) and copy its code into the Arduino IDE, replacing the previous sketch code. Upload the updated sketch to the Arduino board.
 
