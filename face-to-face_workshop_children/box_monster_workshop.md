@@ -15,25 +15,23 @@ or use the cloud editor version.
 
 ## Materials
 
-1.  2 LEDs (any colour)
+1.  Regular LEDs and/or RGB LEDs
 
-2.  1 shoebox
+2.  Shoebox(Optional)
 
-3.  1 220 Ω or 560 Ω resistor
+3.  220 Ω or 560 Ω resistor or 1 kΩ resistors 
 
-4.  6 × 1 kΩ resistors (colour bands: brown, black, red, gold)
+5.  Jumper wires (long wires)(Optional)
 
-5.  7 jumper wires (at least 2 long wires)(Optional)
+6.  Alligator-clip leads(optional)
 
-6.  4 alligator-clip leads(optional)
-
-7.  2 ping-pong balls
+7.  Ping-pong balls
 
 8.  Openings for the ping-pong-ball eyes
 
-9.  1 Photoresistor(light sensor)
+9.  Photoresistor(light sensor)
 
-10.  1 speaker (Hamberger mini speaker)
+10.  Speaker (Hamberger mini speaker)
 
 11.  YX5300 MP3 player board
 
