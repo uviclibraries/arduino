@@ -21,7 +21,7 @@ int sensorHigh = 0;
 // LED pin
 const int ledPin1 = 13;
 const int ledPin2 = 12;
-const int sensorThreshold=800;
+const int sensorThreshold=60;//Can be changed according to the actual value of the current limit resistors and wiring for the light sensor.
 
 // map the sensor values to a wide range of pitches
 int pitch = map(sensorValue, sensorLow, sensorHigh, 50, 4000);
@@ -44,7 +44,7 @@ void lightsensing(){
   Serial.println(sensorValue);
   //delay(3000);
   //The larger the sensorValue, the darker of the environment
-  if (sensorValue>sensorThreshold){
+  if (sensorValue<sensorThreshold){
       digitalWrite(ledPin1, LOW);
       digitalWrite(ledPin2, LOW); 
     }
