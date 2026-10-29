@@ -25,7 +25,7 @@ Before you begin, download and install the Arduino IDE for your operating system
 
 ## Build Your Box Monster
 
-If you have more experience, you can skip ahead to [Add a Spooky Sound and Blinking, Colour-Changing Eyes](#add-a-spooky-sound-and-blinking-colour-changing-eyes).
+For people who already have experience working with Arduino electronics, you could skip ahead to a more challenging, but very cool option to [add a Spooky Sound and Blinking, Colour-Changing Eyes](#add-a-spooky-sound-and-blinking-colour-changing-eyes) to your Monster Box!
 
 1.  Connect the components as shown in the diagram below. Leave the speaker disconnected for now as it will be added later.
 
