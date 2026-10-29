@@ -16,23 +16,14 @@ or use the cloud editor version.
 ## Materials
 
 1.  Regular LEDs and/or RGB LEDs
-
 2.  Shoebox(Optional)
-
 3.  220 Ω or 560 Ω resistor or 1 kΩ resistors 
-
 5.  Jumper wires (long wires)(Optional)
-
 6.  Alligator-clip leads(optional)
-
 7.  Ping-pong balls
-
 8.  Openings for the ping-pong-ball eyes
-
 9.  Photoresistor(light sensor)
-
 10.  Speaker (Hamberger mini speaker)
-
 11.  YX5300 MP3 player board
 
 Connect the components as shown in the diagram below. Leave the speaker disconnected for now; we will add it later. For the users who have more experience, they can jump to the next section: Add a Spooky Sound and blink the eyes with changing colors to make it more spooky.
